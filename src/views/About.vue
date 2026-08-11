@@ -4,21 +4,40 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Anthony Maldonado</strong>, a Game Developer and Designer
+        with experience working in <strong>Unity, Godot, and Unreal Engine</strong>.
+        <br/><br/>
+        I enjoy bringing game ideas to life through game design and development,
+        devling into level and combat design to create experiences that are fun and engaging
+        for players.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">
+        I've worked on
+        <router-link to="/game-projects">games</router-link>
+        ranging from VR action experiences to game jam projects and
+        collaborative team productions. You can also check out
+        <router-link to="/other-projects">my other work</router-link>
+        or learn more about my experience through
+        <router-link to="/resume">my resume</router-link>.
+      </div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">
+        I'm <strong>currently looking for opportunities in game design</strong>
+        where I can continue growing as a developer and designer while contributing
+        to exciting projects.
+        <br/><br/>
+        Feel free to
+        <router-link to="/contact">reach out</router-link>
+        if you'd like to connect!
+      </div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.png" alt="Photo of Anthony Maldonado" />
     </div>
 
     <div style="clear:both"></div>
-
   </div>
 </template>
 
@@ -33,7 +52,7 @@
   text-align: center;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
   .paragraph {
     float: left;
   }
@@ -44,5 +63,4 @@
     padding-left: 80px;
   }
 }
-
 </style>

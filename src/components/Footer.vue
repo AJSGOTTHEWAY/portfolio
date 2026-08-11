@@ -1,8 +1,22 @@
 <template>
   <div class="footer">
-    
-    <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Portfolio</a> by schouffy</div>
-    <div class="right">Reach me at <a href="mailto:my@email.com">my@email.com</a> or <router-link to="/contact">through here</router-link></div>
+
+    <div class="left">
+      Portfolio template by
+      <a
+        href="https://github.com/schouffy/gamedev-portfolio"
+        target="_blank"
+      >
+        schouffy
+      </a>
+      — customized by Anthony Maldonado
+    </div>
+
+    <div class="right">
+      Feel free to
+      <router-link to="/contact">get in touch</router-link>
+    </div>
+
   </div>
 </template>
 
@@ -27,9 +41,9 @@ export default Vue.extend({
 }
 
 .left, .right {
-    padding-top: 10px;
-    text-align: center;
-  }
+  padding-top: 10px;
+  text-align: center;
+}
 
 @media only screen and (min-width: 620px){
 
@@ -46,7 +60,8 @@ export default Vue.extend({
   }
 
   .right {
-    float:right;
+    float: right;
   }
 }
+
 </style>

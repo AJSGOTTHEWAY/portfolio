@@ -3,104 +3,238 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
-      <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
-      <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      I'm <strong>Anthony Maldonado</strong>, a Game Design and Development graduate from
+      Rochester Institute of Technology focused on combat design, level design and about anything I could get my hands on!
+      <br /><br />
+
+      I enjoy taking ideas for game mechanics and figuring out how to turn them into
+      experiences players can actually interact with. I've worked across
+      <strong>Unity, Godot, and Unreal Engine</strong>, developing gameplay systems,
+      combat mechanics, VR interactions, dialogue systems, enemy AI, UI, and levels.
+      <br /><br />
+
+      I especially enjoy working between design and programming — thinking about how a
+      mechanic should feel to the player, then breaking it down and building the systems
+      needed to make it work.
+      <br /><br />
+
+      When I'm away from development, you'll usually find me running, playing games,
+      or playing soccer.
+      <br /><br />
+
+      If you'd like to talk games, development, or potential opportunities, feel free to
+      <router-link to="/contact">reach out!</router-link>
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a
+          class="download-link"
+          href="d/Anthony_Maldonado_Resume.pdf"
+          target="_blank"
+        >
+          <i class="fa fa-download fa-lg fa-fw"></i>
+          Download Resume
+        </a>
+
         <div style="clear:both"></div>
       </div>
     </div>
+
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/resume-photo.png" alt="Anthony Maldonado" />
     </div>
 
     <div style="clear:both"></div>
 
     <div class="full-content">
-      <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <!-- EXPERIENCE -->
 
-      <div>It's classified so I can't speak about it.</div>
+      <h2>Experience</h2>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h3>Gameplay Programmer / Technical Designer — The GATEWAY Project</h3>
+      <h4>2025 – Present</h4>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <div>
+        Developing gameplay systems and tools for an educational first-person shooter,
+        including dialogue systems, player mechanics, UI, and gameplay functionality.
+        My work includes creating reusable systems that allow designers to build and
+        modify gameplay content more efficiently.
+      </div>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div class="tech-stack">
+        Unity, C#, Ink, Gameplay Programming, Technical Design
+      </div>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
+      <h3>Game Developer — Changeling</h3>
+      <h4>2024 – 2025</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>
+        Contributed to the development of Changeling through level design, narrative
+        development, and gameplay systems. Worked on enemy AI behavior and helped
+        develop environments and interactions supporting the game's VR experience.
+      </div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">
+        Unity, C#, VR Development, Level Design, Narrative Design, AI
+      </div>
+
+
+      <h3>Web Development Intern</h3>
+      <h4>2026</h4>
+
+      <div>
+        Contributed to web development and maintenance while working with technologies
+        including PHP, SQL, HTML, CSS, and JavaScript.
+      </div>
+
+      <div class="tech-stack">
+        PHP, SQL, HTML, CSS, JavaScript
+      </div>
+
+
+      <!-- SKILLS -->
 
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Programming</h3>
+
+        <SkillRate name="C#" :rate="5" />
+        <SkillRate name="C++" :rate="4" />
+        <SkillRate name="GDScript" :rate="4" />
+        <SkillRate name="JavaScript" :rate="4" />
+        <SkillRate name="Python" :rate="3" />
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Game Development</h3>
+
+        <SkillRate name="Gameplay Programming" :rate="5" />
+        <SkillRate name="Technical Design" :rate="5" />
+        <SkillRate name="Game Design" :rate="5" />
+        <SkillRate name="Level Design" :rate="4" />
+        <SkillRate name="VR Development" :rate="4" />
+        <SkillRate name="UI / UX" :rate="4" />
       </div>
-      <div style="clear:both" />
+
+      <div style="clear:both"></div>
+
+
+      <!-- ENGINES -->
+
+      <h2>Engines & Tools</h2>
+
+      <div class="skill-set">
+        <h3>Game Engines</h3>
+
+        <SkillRate name="Unity" :rate="5" />
+        <SkillRate name="Godot" :rate="4" />
+        <SkillRate name="Unreal Engine" :rate="4" />
+      </div>
+
+      <div class="skill-set">
+        <h3>Tools</h3>
+
+        <SkillRate name="Visual Studio / VS Code" :rate="5" />
+        <SkillRate name="Figma" :rate="4" />
+        <SkillRate name="Maya" :rate="3" />
+        <SkillRate name="Photoshop" :rate="3" />
+        <SkillRate name="Trello" :rate="4" />
+      </div>
+
+      <div style="clear:both"></div>
+
+
+      <!-- EDUCATION -->
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Rochester Institute of Technology</h3>
+      <h4>B.S. Game Design and Development — 2026</h4>
 
-      <h2>Languages</h2>
-
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
-
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
-
-      <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
-
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
-
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
+        Studied game development with a focus on gameplay programming,
+        game design, technical systems, and collaborative game production.
       </div>
+
+
+      <!-- FEATURED PROJECTS -->
+
+      <h2>Selected Projects</h2>
+
+      <h3>Hardline VR</h3>
+      <div>
+        First-person VR hack-and-slash developed in Godot featuring melee and ranged
+        combat, destructible enemies, breakable environmental weapons, and
+        controller-based VR locomotion.
+      </div>
+
+      <div class="tech-stack">
+        Godot, GDScript, VR, Meta Quest 3S, Combat Design
+      </div>
+
+
+      <h3>Intergalactic Ducky</h3>
+      <div>
+        Award-winning 3D isometric adventure created during HACK.COMS '24.
+        Served as the sole game designer and main level designer while helping
+        guide the team's scope and creative direction during the 24-hour hackathon.
+      </div>
+
+      <div class="tech-stack">
+        Godot, Game Design, Level Design, Rapid Prototyping
+      </div>
+
+
+      <h3>Bionaut</h3>
+      <div>
+        2D top-down space game developed in Unity as part of a collaborative
+        development team.
+      </div>
+
+      <div class="tech-stack">
+        Unity, C#, Game Development
+      </div>
+
+
+      <h3>Twelve Mage</h3>
+      <div>
+        2D top-down horde shooter developed directly in C# using MonoGame.
+        Worked as a gameplay programmer and mechanics designer, developing
+        projectile behavior, collision and damage systems, weapon prototypes,
+        and early game-state architecture.
+      </div>
+
+      <div class="tech-stack">
+        C#, MonoGame, Gameplay Programming, Combat Design
+      </div>
+
+
+      <!-- INTERESTS -->
+
+      <h2>Outside of Development</h2>
+
+      <div>
+        <h3>🏃 Running</h3>
+        <div>
+          Running is one of my favorite ways to stay active and challenge myself.
+        </div>
+
+        <h3>🎮 Games</h3>
+        <div>
+          I enjoy playing games just as much as I enjoy making them and I'm
+          always interested in seeing how other developers approach game mechanics
+          and player experiences.
+        </div>
+
+        <h3>⚽ Soccer</h3>
+        <div>
+          I've always enjoyed playing soccer and the teamwork and competition
+          that come with it.
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
