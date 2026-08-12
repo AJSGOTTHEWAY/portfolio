@@ -1,24 +1,10 @@
-<template>
-  <div class="footer">
+<div class="left">
+  © 2026 Anthony Maldonado
+</div>
 
-    <div class="left">
-      Portfolio template by
-      <a
-        href="https://github.com/schouffy/gamedev-portfolio"
-        target="_blank"
-      >
-        schouffy
-      </a>
-      — customized by Anthony Maldonado
-    </div>
-
-    <div class="right">
-      Feel free to
-      <router-link to="/contact">get in touch</router-link>
-    </div>
-
-  </div>
-</template>
+<div class="right">
+  <router-link to="/contact">Let's get in touch.</router-link>
+</div>
 
 <script lang="ts">
 import Vue from "vue";
