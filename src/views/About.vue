@@ -34,7 +34,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Photo of Anthony Maldonado" />
+      <img src="img/portfolio.jpg" alt="Photo of Anthony Maldonado" />
     </div>
 
     <div style="clear:both"></div>
