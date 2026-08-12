@@ -4,7 +4,7 @@ export default [
     new ProjectData(
         "intergalactic-ducky",
         "Intergalactic Ducky",
-        "img/projects/intergalactic-ducky-icon.png",
+        "img/projects/ducky/ducky-icon.jpg",
         `
         <div class="paragraph">
             <strong>Intergalactic Ducky</strong> is a 3D isometric adventure game created in Godot during HACK.COMS '24.
@@ -12,13 +12,25 @@ export default [
             The game was developed in only 24 hours and was awarded <strong>Goostavo's Favorite</strong>.
         </div>
 
+        <!-- GAMEPLAY VIDEO -->
         <div class="paragraph center">
             <iframe
                 class="youtube"
-                src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                src="https://www.youtube.com/embed/YOUR_DUCKY_VIDEO_ID"
+                title="Intergalactic Ducky Gameplay"
                 frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
+        </div>
+
+        <!-- HERO GAMEPLAY IMAGE -->
+        <div class="paragraph center">
+            <img
+                class="pc-screenshot"
+                src="img/projects/ducky/ducky-ship.png"
+                alt="Intergalactic Ducky gameplay"
+            />
         </div>
 
         <div class="paragraph">
@@ -33,124 +45,141 @@ export default [
             </ul>
         </div>
 
-        <div class="paragraph">
-            <h2>My Role</h2>
-            I served as the sole game designer and main level designer on the team.
-            I helped define the overall direction of the game, manage the project's scope,
-            and design the major challenges the player encounters throughout the level.
+    <div class="paragraph">
+        <h2>My Role</h2>
+        I served as the sole game designer and main level designer on the team.
+        I helped define the overall direction of the game, manage the project's scope,
+        and design the major challenges the player encounters throughout the level.
+    </div>
+
+    <div class="paragraph">
+        <h2>Project Direction and Scope</h2>
+        Our initial idea was to include as many hackathon categories as possible in an effort
+        to increase our chances of winning. This quickly made our ideas too limited and difficult
+        to execute within the 24-hour deadline.
+        <br/><br/>
+        Drawing from my previous game jam experience, I guided the team toward reducing the scope
+        and focusing on a more cohesive experience. I proposed ducks as the central theme, giving
+        the team a clear creative direction and allowing us to build outward from one strong idea.
+    </div>
+
+    <div class="paragraph">
+        <h2>Level Design</h2>
+        I designed three primary challenges, each built around the game's isometric perspective,
+        movement mechanics, and environmental interactions.
+    </div>
+
+    <div class="paragraph">
+        <h3>Introducing the Transparency Mechanic</h3>
+        The first challenge introduced the player to Cosmo, a helper character located inside a building.
+        Because the isometric camera could cause walls to obstruct the player's view, the team implemented
+        a transparency system that allowed the player to remain visible through nearby geometry.
+        <br/><br/>
+        After meeting Cosmo, the player could explore behind the building and discover the first ship part.
+        This section taught the player how the camera and transparency system worked through exploration
+        instead of relying on a direct tutorial.
+    </div>
+
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/ducky/ducky-cosmo.png"
+            alt="Meeting Cosmo in Intergalactic Ducky"
+        />
+
+        <img
+            class="pc-screenshot"
+            src="img/projects/ducky/ducky-ship-part.png"
+            alt="Finding a ship part in Intergalactic Ducky"
+        />
+    </div>
+
+    <div class="paragraph">
+        <h3>Low-Gravity Platforming</h3>
+        The second challenge required the player to jump across floating meteors while navigating reduced gravity.
+        Players had to carefully time their jumps and account for the increased jump height.
+        <br/><br/>
+        The isometric perspective made judging depth and landing positions more difficult, which increased the
+        challenge and made reaching the ship part at the end feel earned.
+    </div>
+
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/ducky/ducky-meteor-platforming.png"
+            alt="Low-gravity platforming challenge in Intergalactic Ducky"
+        />
+    </div>
+
+    <div class="paragraph">
+        <h3>The Invisible Maze</h3>
+        A traditional maze would have been too easy because the isometric perspective and transparency mechanic
+        allowed the player to see through walls and identify the correct path.
+        <br/><br/>
+        To solve this, I inverted the mechanic by making the maze's walls and roof transparent.
+        The player could see the goal but could not clearly see the route leading toward it.
+        They had to navigate through trial and error, remember the correct path, and retrace their steps
+        after collecting the final ship part.
+    </div>
+
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/ducky/ducky-invisible-maze.png"
+            alt="Invisible maze challenge in Intergalactic Ducky"
+        />
+    </div>
+
+    <div class="paragraph">
+        <h2>Environment Design</h2>
+        We chose a science-fiction space theme to support the crashed-ship premise.
+        I helped establish the visual direction of the alien planet and selected a background that made the
+        environment feel larger and more planetary.
+        <br/><br/>
+        I collaborated with another teammate who helped expand the terrain, create the mountainous borders,
+        and reinforce the boundaries of the playable area.
+    </div>
+
+    <div class="paragraph">
+        <h2>Challenges</h2>
+        The largest challenge was the 24-hour development window.
+        Every team member was using Godot for the first time, and we also chose to build a 3D game,
+        which increased the technical and production risk.
+        <br/><br/>
+        Keeping the project achievable required constant prioritization, communication, and scope control.
+    </div>
+
+    <div class="paragraph">
+        <h2>Reflection</h2>
+        Intergalactic Ducky taught me that strong game design is not about including the greatest number of ideas.
+        It is about identifying which ideas are achievable, communicating a clear direction, and polishing the
+        features that have the greatest impact on the player experience.
+        <br/><br/>
+        The project also showed me that I could lead a team through uncertainty, learn a new engine under pressure,
+        and still help deliver an award-winning game within a strict deadline.
+    </div>
+
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/ducky/ducky-final-dialogue.png"
+            alt="Intergalactic Ducky final objective"
+        />
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+            Awarded <strong>Goostavo's Favorite</strong> at HACK.COMS '24.
         </div>
-
-        <div class="paragraph">
-            <h2>Project Direction and Scope</h2>
-            Our initial idea was to include as many hackathon categories as possible in an effort
-            to increase our chances of winning. This quickly made our ideas too limited and difficult
-            to execute within the 24-hour deadline.
-            <br/><br/>
-            Drawing from my previous game jam experience, I guided the team toward reducing the scope
-            and focusing on a more cohesive experience. I proposed ducks as the central theme, giving
-            the team a clear creative direction and allowing us to build outward from one strong idea.
-        </div>
-
-        <div class="paragraph">
-            <h2>Level Design</h2>
-            I designed three primary challenges, each built around the game's isometric perspective,
-            movement mechanics, and environmental interactions.
-        </div>
-
-        <div class="paragraph">
-            <h3>Introducing the Transparency Mechanic</h3>
-            The first challenge introduced the player to Cosmo, a helper character located inside a building.
-            Because the isometric camera could cause walls to obstruct the player's view, the team implemented
-            a transparency system that allowed the player to remain visible through nearby geometry.
-            <br/><br/>
-            After meeting Cosmo, the player could explore behind the building and discover the first ship part.
-            This section taught the player how the camera and transparency system worked through exploration
-            instead of relying on a direct tutorial.
-        </div>
-
-        <div class="paragraph">
-            <h3>Low-Gravity Platforming</h3>
-            The second challenge required the player to jump across floating meteors while navigating reduced gravity.
-            Players had to carefully time their jumps and account for the increased jump height.
-            <br/><br/>
-            The isometric perspective made judging depth and landing positions more difficult, which increased the
-            challenge and made reaching the ship part at the end feel earned.
-        </div>
-
-        <div class="paragraph">
-            <h3>The Invisible Maze</h3>
-            A traditional maze would have been too easy because the isometric perspective and transparency mechanic
-            allowed the player to see through walls and identify the correct path.
-            <br/><br/>
-            To solve this, I inverted the mechanic by making the maze's walls and roof transparent.
-            The player could see the goal but could not clearly see the route leading toward it.
-            They had to navigate through trial and error, remember the correct path, and retrace their steps
-            after collecting the final ship part.
-        </div>
-
-        <div class="paragraph">
-            <h2>Environment Design</h2>
-            We chose a science-fiction space theme to support the crashed-ship premise.
-            I helped establish the visual direction of the alien planet and selected a background that made the
-            environment feel larger and more planetary.
-            <br/><br/>
-            I collaborated with another teammate who helped expand the terrain, create the mountainous borders,
-            and reinforce the boundaries of the playable area.
-        </div>
-
-        <div class="paragraph">
-            <h2>Challenges</h2>
-            The largest challenge was the 24-hour development window.
-            Every team member was using Godot for the first time, and we also chose to build a 3D game,
-            which increased the technical and production risk.
-            <br/><br/>
-            Keeping the project achievable required constant prioritization, communication, and scope control.
-        </div>
-
-        <div class="paragraph">
-            <h2>Reflection</h2>
-            Intergalactic Ducky taught me that strong game design is not about including the greatest number of ideas.
-            It is about identifying which ideas are achievable, communicating a clear direction, and polishing the
-            features that have the greatest impact on the player experience.
-            <br/><br/>
-            The project also showed me that I could lead a team through uncertainty, learn a new engine under pressure,
-            and still help deliver an award-winning game within a strict deadline.
-        </div>
-
-        <div class="paragraph">
-            <div class="notice">
-                Awarded <strong>Goostavo's Favorite</strong> at HACK.COMS '24.
-            </div>
-        </div>
-
-        <div class="paragraph center">
-            <img
-                class="pc-screenshot"
-                src="img/projects/intergalactic-ducky/screenshot-1.png"
-                alt="Intergalactic Ducky gameplay screenshot"
-            />
-
-            <img
-                class="pc-screenshot"
-                src="img/projects/intergalactic-ducky/screenshot-2.png"
-                alt="Intergalactic Ducky level screenshot"
-            />
-
-            <img
-                class="pc-screenshot"
-                src="img/projects/intergalactic-ducky/screenshot-3.png"
-                alt="Intergalactic Ducky maze screenshot"
-            />
-        </div>
-        `,
-        "#4f78c4",
-        true
-    ),
-
-    new ProjectData(
+    </div>
+    `,
+    "#55c878",
+    true
+),
+   new ProjectData(
     "bionaut",
     "Bionaut",
-    "img/projects/bionaut-icon.png",
+    "img/projects/bionaut/bionaut-icon.png",
     `
     <div class="paragraph">
         <strong>Bionaut</strong> is a 2D top-down space exploration game developed in Unity.
@@ -160,11 +189,14 @@ export default [
         abilities encourage the player to explore further.
     </div>
 
+    <!-- GAMEPLAY VIDEO -->
     <div class="paragraph center">
         <iframe
             class="youtube"
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+            src="https://www.youtube.com/embed/YOUR_BIONAUT_VIDEO_ID"
+            title="Bionaut Gameplay"
             frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
     </div>
@@ -216,14 +248,8 @@ export default [
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/bionaut/bionaut-main-menu.png"
-            alt="Bionaut main menu"
-        />
-
-        <img
-            class="pc-screenshot"
-            src="img/projects/bionaut/bionaut-planet-select.png"
-            alt="Bionaut planet selection screen"
+            src="img/projects/bionaut/bionaut-task-board.png"
+            alt="Bionaut development task board"
         />
     </div>
 
@@ -245,14 +271,8 @@ export default [
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/bionaut/tutorial-planet.png"
-            alt="Bionaut tutorial planet"
-        />
-
-        <img
-            class="pc-screenshot"
-            src="img/projects/bionaut/critter-capture.png"
-            alt="Capturing a critter in Bionaut"
+            src="img/projects/bionaut/bionaut-pod.png"
+            alt="Bionaut tutorial pod"
         />
     </div>
 
@@ -268,6 +288,20 @@ export default [
         environmental elements were introduced.
     </div>
 
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/bionaut/bionaut-critter-capture.png"
+            alt="Capturing and naming a critter in Bionaut"
+        />
+
+        <img
+            class="pc-screenshot"
+            src="img/projects/bionaut/bionaut-critters.png"
+            alt="Critters in the Bionaut environment"
+        />
+    </div>
+
     <div class="paragraph">
         <h3>Expanding to a Second Planet</h3>
         Later in development, I helped expand the game by creating and implementing the
@@ -280,20 +314,6 @@ export default [
         <br/><br/>
         Building the second planet was an important milestone because it demonstrated that
         the exploration structure we created could support multiple distinct worlds.
-    </div>
-
-    <div class="paragraph center">
-        <img
-            class="pc-screenshot"
-            src="img/projects/bionaut/desert-planet.png"
-            alt="Bionaut desert planet"
-        />
-
-        <img
-            class="pc-screenshot"
-            src="img/projects/bionaut/desert-effect.png"
-            alt="Bionaut desert planet sand effect"
-        />
     </div>
 
     <div class="paragraph">
@@ -311,14 +331,26 @@ export default [
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/bionaut/main-menu.png"
-            alt="Bionaut main menu interface"
+            src="img/projects/bionaut/bionaut-toolbelt.png"
+            alt="Bionaut tool selection interface"
         />
 
         <img
             class="pc-screenshot"
-            src="img/projects/bionaut/inventory.png"
+            src="img/projects/bionaut/bionaut-inventory.png"
             alt="Bionaut inventory interface"
+        />
+
+        <img
+            class="pc-screenshot"
+            src="img/projects/bionaut/bionaut-critter-menu.png"
+            alt="Bionaut critter collection interface"
+        />
+
+        <img
+            class="pc-screenshot"
+            src="img/projects/bionaut/bionaut-damage.png"
+            alt="Bionaut health and damage feedback"
         />
     </div>
 
@@ -397,35 +429,14 @@ export default [
             <a href="https://github.com/masterbbud/Bionaut" target="_blank">GitHub</a>.
         </div>
     </div>
-
-    <div class="paragraph center">
-        <img
-            class="pc-screenshot"
-            src="img/projects/bionaut/screenshot-1.png"
-            alt="Bionaut gameplay"
-        />
-
-        <img
-            class="pc-screenshot"
-            src="img/projects/bionaut/screenshot-2.png"
-            alt="Bionaut exploration"
-        />
-
-        <img
-            class="pc-screenshot"
-            src="img/projects/bionaut/screenshot-3.png"
-            alt="Bionaut gameplay systems"
-        />
-    </div>
     `,
-    "#48cfc4",
+    "#55c878",
     true
 ),
-
-    new ProjectData(
+new ProjectData(
     "twelve-mage",
     "Twelve Mage",
-    "img/projects/twelve-mage-icon.png",
+    "img/projects/twelve-mage/twelve-mage-icon.png",
     `
     <div class="paragraph">
         <strong>Twelve Mage</strong> is a 2D top-down horde shooter built in C# using MonoGame.
@@ -435,12 +446,11 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <iframe
-            class="youtube"
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-            frameborder="0"
-            allowfullscreen>
-        </iframe>
+        <img
+            class="pc-screenshot"
+            src="img/projects/twelve-mage/twelve-mage-gameplay.png"
+            alt="Twelve Mage gameplay"
+        />
     </div>
 
     <div class="paragraph">
@@ -471,12 +481,28 @@ export default [
         of remaining active indefinitely after leaving the main play area.
     </div>
 
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/twelve-mage/twelve-mage-fireball.png"
+            alt="Projectile combat in Twelve Mage"
+        />
+    </div>
+
     <div class="paragraph">
         <h2>Collision and Damage</h2>
         I also worked on the collision system connecting projectiles, enemies, and player health.
         One challenge was handling repeated collisions correctly. Projectile damage worked naturally
         because every shot created a new projectile, while continuous player-enemy collisions required
         additional logic so health could be reduced correctly across repeated contacts.
+    </div>
+
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/twelve-mage/twelve-mage-wave.jpg"
+            alt="Enemy wave and combat in Twelve Mage"
+        />
     </div>
 
     <div class="paragraph">
@@ -513,33 +539,391 @@ export default [
         like Unity, Godot, and Unreal Engine. It also reinforced the importance of iteration,
         debugging, and refactoring as a project grows.
     </div>
+    `,
+    "#55c878"
+),
 
+    new ProjectData(
+    "hardline-vr",
+    "Hardline VR",
+    "img/projects/hardline-vr/hardline-vr-icon.png",
+    `
+    <div class="paragraph">
+        <strong>Hardline VR</strong> is a fast-paced first-person VR hack-and-slash
+        developed in Godot. Inspired by games such as <em>Hotline Miami</em> and
+        <em>SUPERHOT</em>, the project focuses on physical combat, environmental
+        interaction, and giving the player different ways to fight through encounters.
+        <br/><br/>
+
+        Hardline originally began as a two-person semester project before I continued
+        development independently after the course ended. My interest in VR development
+        pushed me to keep experimenting with the project, expand its combat systems,
+        and explore what I could build using Godot's XR tools.
+    </div>
+
+    <!-- GAMEPLAY VIDEO -->
+    <div class="paragraph center">
+        <iframe
+            class="youtube"
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+            title="Hardline VR Gameplay"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="paragraph">
+        <h2>Project Snapshot</h2>
+        <ul>
+            <li><strong>Role:</strong> VR Developer / Combat Designer</li>
+            <li><strong>Engine:</strong> Godot 4.4</li>
+            <li><strong>Language:</strong> GDScript</li>
+            <li><strong>Platform:</strong> Meta Quest 3S</li>
+            <li><strong>Genre:</strong> First-Person VR Hack-and-Slash</li>
+            <li><strong>Origin:</strong> Two-person semester project</li>
+            <li><strong>Continued Development:</strong> Independent development after the course</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <h2>Project Goals</h2>
+
+        The original goal behind Hardline was to create a fast-paced action game
+        that took advantage of the physical interactions possible in VR.
+        Instead of relying entirely on traditional button-based combat, we wanted
+        the player to physically grab weapons, swing objects, aim firearms, dodge
+        attacks, and use the environment during encounters.
+        <br/><br/>
+
+        We intentionally kept the initial scope focused around creating a playable
+        level where these ideas could be tested. This allowed us to prioritize the
+        core combat experience rather than trying to build a much larger game before
+        we knew whether the mechanics were fun.
+    </div>
+
+    <div class="paragraph">
+        <h2>My Role</h2>
+
+        During the original semester project, I worked primarily on the game's
+        implementation, combat mechanics, environment, weapons, and VR interactions.
+        The project required me to work between programming and design, figuring out
+        both how an interaction should function technically and how it should feel
+        when physically performed by the player.
+        <br/><br/>
+
+        After the course ended, I received my teammate's blessing to continue
+        developing Hardline independently. From that point forward, the project
+        became an opportunity for me to explore VR development on my own and expand
+        the systems beyond what we had completed for the class.
+    </div>
+
+    <div class="paragraph">
+        <h2>Learning Godot XR</h2>
+
+        Before Hardline, I had experience creating 3D projects in Godot, but I had
+        never developed for VR or worked with Godot's XR environment.
+        <br/><br/>
+
+        I initially relied on tutorials and documentation to understand the OpenXR
+        workflow, XR plugins, VR controllers, and the fundamentals of interacting
+        with objects using virtual hands.
+        <br/><br/>
+
+        My first major milestone was simply getting functional VR hands into the
+        game and allowing the player to grab objects.
+        <br/><br/>
+
+        Once I understood those fundamentals, it became my responsibility to figure
+        out how to turn them into the mechanics Hardline actually needed. Basic
+        grabbing became the foundation for weapons, environmental interactions,
+        melee combat, firearms, and destructible objects.
+    </div>
+
+    <!-- XR / GRABBING -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/twelve-mage/screenshot-1.png"
-            alt="Twelve Mage gameplay screenshot"
-        />
-
-        <img
-            class="pc-screenshot"
-            src="img/projects/twelve-mage/screenshot-2.png"
-            alt="Twelve Mage combat screenshot"
-        />
-
-        <img
-            class="pc-screenshot"
-            src="img/projects/twelve-mage/screenshot-3.png"
-            alt="Twelve Mage menu screenshot"
+            src="img/projects/hardline-vr/xr-hands.png"
+            alt="Hardline VR interaction system"
         />
     </div>
-    `,
-    "#7a5cff"
-),
 
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
-        <div class="paragraph">
-            Placeholder project.
+    <div class="paragraph">
+        <h2>Designing Combat for VR</h2>
+
+        One of the biggest design questions I explored was how traditional
+        first-person action mechanics should change when the player's physical
+        movement becomes part of the controls.
+        <br/><br/>
+
+        Rather than pressing a button and watching an attack animation, the player
+        physically performs many of Hardline's actions. They can grab a weapon,
+        swing it at an enemy, aim a firearm, pick up objects in the environment,
+        and move their body to react to incoming threats.
+        <br/><br/>
+
+        This meant that getting a mechanic technically functional was only the first
+        step. Weapons needed to be responsive, objects needed to behave predictably
+        when grabbed, and combat spaces needed enough room for the player to
+        physically interact with enemies.
+    </div>
+
+    <div class="paragraph">
+        <h2>Melee Combat</h2>
+
+        Melee combat was built around allowing the player to physically use objects
+        as weapons rather than relying on predetermined attack animations.
+        <br/><br/>
+
+        Weapons such as the sledgehammer can be picked up and swung using the VR
+        controllers. The player's own movement determines how the weapon is used,
+        making positioning and physical interaction an important part of combat.
+        <br/><br/>
+
+        I also experimented with environmental weapons so that combat was not
+        restricted to traditional equipment. Objects such as chairs could become
+        temporary weapons, reinforcing the idea that the environment itself could
+        be part of the player's combat toolkit.
+    </div>
+
+    <!-- MELEE IMAGES -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/hardline-vr/melee-combat.png"
+            alt="Hardline VR melee combat"
+        />
+
+        <img
+            class="pc-screenshot"
+            src="img/projects/hardline-vr/sledgehammer.png"
+            alt="Using the sledgehammer in Hardline VR"
+        />
+    </div>
+
+    <div class="paragraph">
+        <h2>Firearm System</h2>
+
+        As I continued Hardline independently after the course, one area I wanted
+        to expand was ranged combat.
+        <br/><br/>
+
+        I developed a reusable gun class that could provide a common foundation
+        for firearm behavior. Instead of treating every firearm as a completely
+        separate interaction, shared functionality could be handled by the base
+        system and then extended for different weapon behaviors.
+        <br/><br/>
+
+        Working on the gun system also gave me more experience thinking about
+        reusable gameplay architecture. I was no longer only asking how to make
+        one weapon work; I was thinking about how I could structure the system
+        so additional weapons could be built from the same foundation.
+    </div>
+
+    <!-- GUN IMAGE -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/hardline-vr/gun-combat.png"
+            alt="Gun combat in Hardline VR"
+        />
+    </div>
+
+    <div class="paragraph">
+        <h2>Destructible Enemies</h2>
+
+        I wanted enemy defeats to have stronger physical feedback than simply
+        playing an animation or removing the enemy from the scene.
+        <br/><br/>
+
+        When an enemy is defeated in Hardline, its body can break apart into
+        individual pieces. This gives successful attacks an immediate visual
+        response and complements the exaggerated physical nature of the combat.
+        <br/><br/>
+
+        Some of these pieces can continue to exist as physical objects after the
+        enemy is defeated, helping the results of combat remain visible in the
+        environment.
+    </div>
+
+    <!-- ENEMY DESTRUCTION -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/hardline-vr/enemy-destruction.png"
+            alt="Destructible enemy system in Hardline VR"
+        />
+    </div>
+
+    <div class="paragraph">
+        <h2>Environmental Destruction</h2>
+
+        Destruction was not limited to enemies. I also developed breakable
+        environmental elements to make the level react to the player's actions.
+        <br/><br/>
+
+        Windows can shatter during gameplay, while certain objects such as chairs
+        can be picked up, used during combat, and broken. These interactions help
+        prevent the environment from feeling like a static backdrop.
+        <br/><br/>
+
+        This supported one of the ideas behind Hardline from the beginning:
+        the player should be able to look at their surroundings and think about
+        how the objects around them could be used during a fight.
+    </div>
+
+    <!-- DESTRUCTION IMAGES -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/hardline-vr/window-destruction.png"
+            alt="Breakable windows in Hardline VR"
+        />
+
+        <img
+            class="pc-screenshot"
+            src="img/projects/hardline-vr/chair-destruction.png"
+            alt="Breakable environmental weapon in Hardline VR"
+        />
+    </div>
+
+    <div class="paragraph">
+        <h2>Level and Environment Design</h2>
+
+        I created the primary playable environment with the combat mechanics
+        in mind. Because Hardline is a VR game, the level needed to support
+        physical movement while still controlling the pacing of encounters.
+        <br/><br/>
+
+        Spaces needed enough room for players to swing weapons and react to
+        enemies without making encounters feel empty. Weapon and environmental
+        object placement also helped give players options when entering a fight.
+        <br/><br/>
+
+        The level became the space where the different systems I developed could
+        work together: movement, grabbing, melee combat, firearms, enemies,
+        destruction, and environmental interaction.
+    </div>
+
+    <!-- LEVEL IMAGES -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/hardline-vr/level-1.png"
+            alt="Hardline VR level design"
+        />
+
+        <img
+            class="pc-screenshot"
+            src="img/projects/hardline-vr/level-2.png"
+            alt="Hardline VR combat environment"
+        />
+    </div>
+
+    <div class="paragraph">
+        <h2>Continuous VR Locomotion</h2>
+
+        Hardline uses controller-based continuous locomotion rather than
+        teleportation. I wanted movement to support the fast pace of the combat
+        and allow the player to quickly reposition themselves during encounters.
+        <br/><br/>
+
+        Developing around continuous movement also affected how I approached the
+        environment and combat. The player needed room to move between enemies,
+        approach weapons, retreat from danger, and navigate the level without
+        constantly interrupting the action.
+    </div>
+
+    <div class="paragraph">
+        <h2>Audio and Presentation</h2>
+
+        I also worked on parts of Hardline outside of programming and level
+        development, including creating the background music used in the game
+        and creating assets for weapons such as the gun and sledgehammer.
+        <br/><br/>
+
+        Working across these different areas helped me shape the project toward
+        a more consistent action-focused experience instead of treating each
+        system as an isolated feature.
+    </div>
+
+    <div class="paragraph">
+        <h2>From Class Project to Independent Development</h2>
+
+        One of the most important parts of Hardline's development happened after
+        the semester ended.
+        <br/><br/>
+
+        I had become genuinely interested in VR development while making the
+        original project and did not want my experience with it to end when the
+        class did. With my teammate's blessing, I continued developing Hardline
+        independently.
+        <br/><br/>
+
+        This changed how I approached the project. Without a class deadline or
+        assignment determining what needed to be implemented, I could choose
+        systems based on what I wanted to learn and what I believed would improve
+        the game. The gun class and continued experimentation with combat were
+        examples of this later independent development.
+    </div>
+
+    <div class="paragraph">
+        <h2>Challenges and Iteration</h2>
+
+        Hardline presented a different set of challenges from my previous
+        projects because I was learning VR development while simultaneously
+        trying to design a VR game.
+        <br/><br/>
+
+        Early development involved a significant amount of experimentation.
+        Systems that would be straightforward in a traditional first-person
+        game had to account for tracked hands, physical player movement,
+        grabbing, collisions, and the unpredictability that comes from giving
+        players direct control over objects.
+        <br/><br/>
+
+        The original class project also taught me lessons about time management,
+        communication, and prioritizing game feel. As development continued,
+        I became more aware that a mechanic simply working was not enough.
+        Interactions needed to communicate their results clearly and feel
+        responsive when performed in VR.
+    </div>
+
+    <div class="paragraph">
+        <h2>Reflection</h2>
+
+        Hardline became more than a semester project for me. It was my introduction
+        to developing specifically for VR and one of the projects that pushed me
+        to become more comfortable learning unfamiliar technology independently.
+        <br/><br/>
+
+        I began by following tutorials just to understand how to create VR hands
+        and grab an object. From there, I learned how to take those individual
+        concepts and apply them to problems that did not have a step-by-step
+        solution: melee weapons, firearms, destructible enemies, breakable
+        environments, combat encounters, and reusable systems.
+        <br/><br/>
+
+        Continuing Hardline after the course ended was also important to me
+        personally. I continued because I was interested in VR and wanted to see
+        how much further I could take what I had learned.
+        <br/><br/>
+
+        The project helped reinforce the way I like to approach game development:
+        learn the fundamentals, break larger mechanics into smaller problems,
+        experiment with solutions, and then bring those systems together into
+        something the player can actually experience.
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+            Hardline VR began as a two-person academic project and was later
+            continued independently by Anthony Maldonado after the course ended.
         </div>
-    `, "#5a78af")
+    </div>
+    `,
+    "#55c878",
+    true
+),
 ];
