@@ -52,6 +52,14 @@
   text-align: center;
 }
 
+/* Controls the size of your About Me photo */
+.photo img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 @media only screen and (min-width: 620px) {
   .paragraph {
     float: left;
