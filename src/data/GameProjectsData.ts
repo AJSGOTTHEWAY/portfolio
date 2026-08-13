@@ -16,7 +16,7 @@ export default [
         <div class="paragraph center">
             <iframe
                 class="youtube"
-                src="https://www.youtube.com/watch?v=vo88JMvw5Os"
+                src="https://www.youtube.com/embed/vo88JMvw5Os"
                 title="Intergalactic Ducky Gameplay"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -193,7 +193,7 @@ export default [
     <div class="paragraph center">
         <iframe
             class="youtube"
-            src="https://www.youtube.com/watch?v=htTkVyBFb4M"
+            src="https://www.youtube.com/embed/htTkVyBFb4M"
             title="Bionaut Gameplay"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -455,7 +455,7 @@ new ProjectData(
     <div class="paragraph center">
         <iframe
             class="youtube"
-            src="https://www.youtube.com/watch?v=hmDvSnZqxbs"
+            src="https://www.youtube.com/embed/hmDvSnZqxbs"
             title="Twelve Mage Gameplay"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -586,7 +586,7 @@ new ProjectData(
     <div class="paragraph center">
         <iframe
             class="youtube"
-            src="https://www.youtube.com/watch?v=5BUZLXEioRo"
+            src="https://www.youtube.com/embed/5BUZLXEioRo"
             title="Hardline VR Gameplay"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
