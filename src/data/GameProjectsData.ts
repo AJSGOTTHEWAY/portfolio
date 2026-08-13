@@ -4,7 +4,7 @@ export default [
     new ProjectData(
         "intergalactic-ducky",
         "Intergalactic Ducky",
-        "img/projects/ducky/ducky-icon.jpg",
+        "img/projects/intergalactic-ducky/ducky-icon.jpg",
         `
         <div class="paragraph">
             <strong>Intergalactic Ducky</strong> is a 3D isometric adventure game created in Godot during HACK.COMS '24.
@@ -16,7 +16,7 @@ export default [
         <div class="paragraph center">
             <iframe
                 class="youtube"
-                src="https://youtu.be/vo88JMvw5Os"
+                src="https://www.youtube.com/watch?v=vo88JMvw5Os"
                 title="Intergalactic Ducky Gameplay"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -193,7 +193,7 @@ export default [
     <div class="paragraph center">
         <iframe
             class="youtube"
-            src="https://youtu.be/htTkVyBFb4M"
+            src="https://www.youtube.com/watch?v=htTkVyBFb4M"
             title="Bionaut Gameplay"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -455,7 +455,7 @@ new ProjectData(
     <div class="paragraph center">
         <iframe
             class="youtube"
-            src="https://youtu.be/hmDvSnZqxbs"
+            src="https://www.youtube.com/watch?v=hmDvSnZqxbs"
             title="Twelve Mage Gameplay"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -586,7 +586,7 @@ new ProjectData(
     <div class="paragraph center">
         <iframe
             class="youtube"
-            src="https://youtu.be/5BUZLXEioRo"
+            src="https://www.youtube.com/watch?v=5BUZLXEioRo"
             title="Hardline VR Gameplay"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
