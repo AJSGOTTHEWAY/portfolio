@@ -16,7 +16,7 @@ export default [
         <div class="paragraph center">
             <iframe
                 class="youtube"
-                src="https://www.youtube.com/embed/YOUR_DUCKY_VIDEO_ID"
+                src="https://youtu.be/vo88JMvw5Os"
                 title="Intergalactic Ducky Gameplay"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -28,7 +28,7 @@ export default [
         <div class="paragraph center">
             <img
                 class="pc-screenshot"
-                src="img/projects/ducky/ducky-ship.png"
+                src="img/projects/intergalactic-ducky/ducky-ship.png"
                 alt="Intergalactic Ducky gameplay"
             />
         </div>
@@ -83,13 +83,13 @@ export default [
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/ducky/ducky-cosmo.png"
+            src="img/projects/intergalactic-ducky/ducky-cosmo.png"
             alt="Meeting Cosmo in Intergalactic Ducky"
         />
 
         <img
             class="pc-screenshot"
-            src="img/projects/ducky/ducky-ship-part.png"
+            src="img/projects/intergalactic-ducky/ducky-ship-part.png"
             alt="Finding a ship part in Intergalactic Ducky"
         />
     </div>
@@ -106,7 +106,7 @@ export default [
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/ducky/ducky-meteor-platforming.png"
+            src="img/projects/intergalactic-ducky/ducky-meteor-platforming.png"
             alt="Low-gravity platforming challenge in Intergalactic Ducky"
         />
     </div>
@@ -125,7 +125,7 @@ export default [
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/ducky/ducky-invisible-maze.png"
+            src="img/projects/intergalactic-ducky/ducky-invisible-maze.png"
             alt="Invisible maze challenge in Intergalactic Ducky"
         />
     </div>
@@ -162,7 +162,7 @@ export default [
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/ducky/ducky-final-dialogue.png"
+            src="img/projects/intergalactic-ducky/ducky-final-dialogue.png"
             alt="Intergalactic Ducky final objective"
         />
     </div>
@@ -193,7 +193,7 @@ export default [
     <div class="paragraph center">
         <iframe
             class="youtube"
-            src="https://www.youtube.com/embed/YOUR_BIONAUT_VIDEO_ID"
+            src="https://youtu.be/htTkVyBFb4M"
             title="Bionaut Gameplay"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -253,28 +253,34 @@ export default [
         />
     </div>
 
-    <div class="paragraph">
-        <h2>Tutorial Level Design</h2>
-        I worked heavily on the design and implementation of the first planet, which served
-        as the game's tutorial. The goal was to introduce movement, exploration, tools,
-        interactions, and critters without overwhelming the player.
-        <br/><br/>
-        Early playtests showed that players enjoyed exploring the world but were sometimes
-        unsure about what they were supposed to be doing. In response, we iterated on the
-        tutorial several times and created a more structured opening that gradually introduced
-        mechanics before giving the player greater freedom to explore.
-        <br/><br/>
-        This allowed us to preserve <strong>exploration</strong> as one of the game's core
-        pillars without sacrificing clarity during the player's first few minutes.
-    </div>
+   <div class="paragraph">
+    <h2>Tutorial Level Design</h2>
+    I worked heavily on the design and implementation of the first planet, which served
+    as the game's tutorial. The goal was to introduce movement, exploration, tools,
+    interactions, and critters without overwhelming the player.
+    <br/><br/>
+    Early playtests showed that players enjoyed exploring the world but were sometimes
+    unsure about what they were supposed to be doing. In response, we iterated on the
+    tutorial several times and created a more structured opening that gradually introduced
+    mechanics before giving the player greater freedom to explore.
+    <br/><br/>
+    This allowed us to preserve <strong>exploration</strong> as one of the game's core
+    pillars without sacrificing clarity during the player's first few minutes.
+</div>
 
-    <div class="paragraph center">
-        <img
-            class="pc-screenshot"
-            src="img/projects/bionaut/bionaut-pod.png"
-            alt="Bionaut tutorial pod"
-        />
-    </div>
+<div class="paragraph center">
+    <img
+        class="pc-screenshot"
+        src="img/projects/bionaut/bionaut-tutorial.png"
+        alt="Bionaut tutorial planet"
+    />
+
+    <img
+        class="pc-screenshot"
+        src="img/projects/bionaut/bionaut-pod.png"
+        alt="Bionaut tutorial pod"
+    />
+</div>
 
     <div class="paragraph">
         <h2>Planet & Environment Design</h2>
@@ -445,12 +451,16 @@ new ProjectData(
         achieve the highest score you can.
     </div>
 
+    <!-- GAMEPLAY VIDEO -->
     <div class="paragraph center">
-        <img
-            class="pc-screenshot"
-            src="img/projects/twelve-mage/twelve-mage-gameplay.png"
-            alt="Twelve Mage gameplay"
-        />
+        <iframe
+            class="youtube"
+            src="https://youtu.be/hmDvSnZqxbs"
+            title="Twelve Mage Gameplay"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
     </div>
 
     <div class="paragraph">
@@ -473,6 +483,15 @@ new ProjectData(
         system, and final polish.
     </div>
 
+    <!-- GENERAL GAMEPLAY -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/twelve-mage/twelve-mage-gameplay.png"
+            alt="Twelve Mage gameplay"
+        />
+    </div>
+
     <div class="paragraph">
         <h2>Projectile System</h2>
         I created the projectile class used as the foundation for the player's ranged combat.
@@ -481,6 +500,7 @@ new ProjectData(
         of remaining active indefinitely after leaving the main play area.
     </div>
 
+    <!-- PROJECTILE SYSTEM -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
@@ -497,6 +517,7 @@ new ProjectData(
         additional logic so health could be reduced correctly across repeated contacts.
     </div>
 
+    <!-- ENEMY WAVES / COLLISION -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
@@ -546,7 +567,7 @@ new ProjectData(
     new ProjectData(
     "hardline-vr",
     "Hardline VR",
-    "img/projects/hardline-vr/hardline-vr-icon.png",
+    "img/projects/hardline-vr/hardline-icon.png",
     `
     <div class="paragraph">
         <strong>Hardline VR</strong> is a fast-paced first-person VR hack-and-slash
@@ -565,7 +586,7 @@ new ProjectData(
     <div class="paragraph center">
         <iframe
             class="youtube"
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+            src="https://youtu.be/5BUZLXEioRo"
             title="Hardline VR Gameplay"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -640,12 +661,12 @@ new ProjectData(
         melee combat, firearms, and destructible objects.
     </div>
 
-    <!-- XR / GRABBING -->
+    <!-- GENERAL XR / INTERACTION IMAGE -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/hardline-vr/xr-hands.png"
-            alt="Hardline VR interaction system"
+            src="img/projects/hardline-vr/hardline-combat-1.png"
+            alt="Hardline VR gameplay and interaction"
         />
     </div>
 
@@ -691,13 +712,13 @@ new ProjectData(
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/hardline-vr/melee-combat.png"
+            src="img/projects/hardline-vr/hardline-melee.png"
             alt="Hardline VR melee combat"
         />
 
         <img
             class="pc-screenshot"
-            src="img/projects/hardline-vr/sledgehammer.png"
+            src="img/projects/hardline-vr/hardline-sledgehammer.png"
             alt="Using the sledgehammer in Hardline VR"
         />
     </div>
@@ -721,11 +742,11 @@ new ProjectData(
         so additional weapons could be built from the same foundation.
     </div>
 
-    <!-- GUN IMAGE -->
+    <!-- FIREARM IMAGE -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/hardline-vr/gun-combat.png"
+            src="img/projects/hardline-vr/hardline-combat-2.png"
             alt="Gun combat in Hardline VR"
         />
     </div>
@@ -751,7 +772,7 @@ new ProjectData(
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/hardline-vr/enemy-destruction.png"
+            src="img/projects/hardline-vr/hardline-enemy-destruction-1.png"
             alt="Destructible enemy system in Hardline VR"
         />
     </div>
@@ -773,18 +794,12 @@ new ProjectData(
         how the objects around them could be used during a fight.
     </div>
 
-    <!-- DESTRUCTION IMAGES -->
+    <!-- ENVIRONMENTAL DESTRUCTION -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/hardline-vr/window-destruction.png"
-            alt="Breakable windows in Hardline VR"
-        />
-
-        <img
-            class="pc-screenshot"
-            src="img/projects/hardline-vr/chair-destruction.png"
-            alt="Breakable environmental weapon in Hardline VR"
+            src="img/projects/hardline-vr/hardline-glass-destruction.png"
+            alt="Breakable glass in Hardline VR"
         />
     </div>
 
@@ -806,18 +821,18 @@ new ProjectData(
         destruction, and environmental interaction.
     </div>
 
-    <!-- LEVEL IMAGES -->
+    <!-- LEVEL / ENCOUNTER IMAGES -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/hardline-vr/level-1.png"
-            alt="Hardline VR level design"
+            src="img/projects/hardline-vr/hardline-combat-3.png"
+            alt="Hardline VR combat environment"
         />
 
         <img
             class="pc-screenshot"
-            src="img/projects/hardline-vr/level-2.png"
-            alt="Hardline VR combat environment"
+            src="img/projects/hardline-vr/hardline-enemies.png"
+            alt="Enemies within the Hardline VR level"
         />
     </div>
 
@@ -890,6 +905,15 @@ new ProjectData(
         responsive when performed in VR.
     </div>
 
+    <!-- DEATH SCREEN / GAME STATE -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/hardline-vr/hardline-deathscreen.png"
+            alt="Hardline VR death screen"
+        />
+    </div>
+
     <div class="paragraph">
         <h2>Reflection</h2>
 
@@ -925,5 +949,5 @@ new ProjectData(
     `,
     "#55c878",
     true
-),
+)
 ];
