@@ -83,13 +83,13 @@ export default [
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/intergalactic-ducky/ducky-cosmo.png"
+            src="img/projects/intergalactic-ducky/ducky-cosmo.jpg"
             alt="Meeting Cosmo in Intergalactic Ducky"
         />
 
         <img
             class="pc-screenshot"
-            src="img/projects/intergalactic-ducky/ducky-ship-part.png"
+            src="img/projects/intergalactic-ducky/ducky-ship-part.jpg"
             alt="Finding a ship part in Intergalactic Ducky"
         />
     </div>
@@ -106,7 +106,7 @@ export default [
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/intergalactic-ducky/ducky-meteor-platforming.png"
+            src="img/projects/intergalactic-ducky/ducky-meteor-platforming.jpg"
             alt="Low-gravity platforming challenge in Intergalactic Ducky"
         />
     </div>
@@ -162,7 +162,7 @@ export default [
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/intergalactic-ducky/ducky-final-dialogue.png"
+            src="img/projects/intergalactic-ducky/ducky-final-dialogue.jpg"
             alt="Intergalactic Ducky final objective"
         />
     </div>
