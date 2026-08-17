@@ -4,9 +4,8 @@
         <template v-for="project in projects">
           <div
             :key="project.id"
-              @click="showDetails(project)"
-              class="project-item"
-              :class="{ 'wide': project.isWide, 'high': project.isHigh }">
+            @click="showDetails(project)"
+            class="project-item">
             <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
             </div>
             <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
@@ -66,6 +65,10 @@ export default Vue.extend({
 
 <style scoped>
 
+.projects-list {
+  width: 100%;
+}
+
 .project-item {
   height: 300px;
   margin-bottom: 20px;
@@ -78,23 +81,23 @@ export default Vue.extend({
 .project-item-image {
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  transition: all 0.2s;
+  transition: transform 0.2s;
 }
+
 .project-item-image:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .project-item:hover {
-filter: brightness(120%);
+  filter: brightness(120%);
 }
 
 .title-bar {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   background-color: #222222;
 }
@@ -103,29 +106,20 @@ filter: brightness(120%);
   padding: 10px;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
+
   .projects-list {
     max-width: 900px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    grid-auto-rows: minmax(250px, auto);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
   .project-item {
-    margin: 0px;
-    height: 100%;
+    margin: 0;
     width: 100%;
-  }
-
-  .wide {
-    grid-column-end: span 2;
-  }
-  .high {
-    grid-row-end: span 2;
+    height: 300px;
   }
 }
-
-
 
 </style>
