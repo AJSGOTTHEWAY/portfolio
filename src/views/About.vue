@@ -16,8 +16,8 @@
         I've worked on
         <router-link to="/game-projects">games</router-link>
         ranging from VR action experiences to game jam projects and
-        collaborative team productions. You can also check out
-        <router-link to="/other-projects">my other work</router-link>
+        collaborative team productions. You can explore
+        <router-link to="/game-projects">my game projects</router-link>
         or learn more about my experience through
         <router-link to="/resume">my resume</router-link>.
       </div>

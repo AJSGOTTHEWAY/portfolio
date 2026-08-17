@@ -949,5 +949,613 @@ new ProjectData(
     `,
     "#55c878",
     true
+), 
+
+new ProjectData(
+    "gateway",
+    "The GATEWAY Project",
+    "img/projects/gateway/gateway-icon.png",
+    `
+    <div class="paragraph">
+        <strong>The GATEWAY Project</strong> is a multi-level game developed in Unity
+        that transitions between genres as the player progresses. The experience begins
+        as a 2D top-down puzzle game before eventually transitioning into a 3D
+        first-person shooter.
+        <br/><br/>
+
+        My primary completed work on the project has focused on the 2D portion, where
+        I was responsible for the level's narrative as well as the integration and UI
+        of its Ink-based dialogue system. I am currently working on the combat mechanics,
+        design, and feel of the upcoming 3D first-person shooter portion.
+    </div>
+
+
+    <!-- PROJECT SNAPSHOT -->
+    <div class="paragraph">
+        <h2>Project Snapshot</h2>
+
+        <ul>
+            <li><strong>Role:</strong> Technical Designer / Gameplay Programmer</li>
+            <li><strong>Engine:</strong> Unity</li>
+            <li><strong>Language:</strong> C#</li>
+            <li><strong>Narrative System:</strong> Ink</li>
+            <li><strong>Genres:</strong> 2D Top-Down Puzzle / 3D First-Person Shooter</li>
+            <li><strong>Status:</strong> In Development</li>
+            <li><strong>Focus:</strong> Narrative Design, Dialogue Systems, UI, Gameplay & Combat Design</li>
+        </ul>
+    </div>
+
+
+    <!-- MY ROLE -->
+    <div class="paragraph">
+        <h2>My Role</h2>
+
+        My responsibilities on GATEWAY have evolved alongside the project.
+        <br/><br/>
+
+        For the 2D level, I worked between narrative design and technical implementation.
+        I wrote the narrative for the level and developed the systems needed to integrate
+        and present that narrative within the game.
+        <br/><br/>
+
+        This included working with Ink, integrating dialogue into Unity, developing
+        the narrative UI, supporting branching player choices, and creating
+        character-specific dialogue presentations.
+        <br/><br/>
+
+        With development now moving toward the 3D first-person shooter portion,
+        my current focus is shifting toward gameplay programming and combat design.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- 2D NARRATIVE SECTION -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>2D Level — Narrative Design</h2>
+
+        For the 2D portion of GATEWAY, I was responsible for writing the narrative
+        content for the level and determining how that story would be delivered
+        as the player progressed.
+        <br/><br/>
+
+        Because the level combines narrative with top-down puzzle gameplay, I wanted
+        the story to feel connected to the player's progression rather than exist
+        separately from it. Narrative moments needed to work alongside exploration
+        and puzzle solving without constantly interrupting the player.
+        <br/><br/>
+
+        This required thinking about when information should be presented, how much
+        information the player should receive at once, and how dialogue could support
+        the pacing and progression of the level.
+    </div>
+
+
+    <!-- 2D LEVEL IMAGE -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/gateway/gateway-2d-level.png"
+            alt="GATEWAY 2D top-down puzzle level"
+        />
+    </div>
+
+
+    <!-- INK SYSTEM -->
+    <div class="paragraph">
+        <h2>Ink Dialogue System</h2>
+
+        I developed the project's dialogue functionality in Unity using
+        <strong>Ink</strong> as the foundation for writing and controlling
+        conversations.
+        <br/><br/>
+
+        The system connects Ink narrative content with Unity's gameplay and UI,
+        allowing conversations to progress while supporting different speakers
+        and branching player choices.
+        <br/><br/>
+
+        Building the system required me to work between narrative design and
+        programming. I needed to consider not only how conversations were written,
+        but also how Ink, Unity, the interface, and gameplay progression would
+        communicate with one another.
+    </div>
+
+
+    <!-- DIALOGUE IMAGE -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/gateway/gateway-dialogue.png"
+            alt="GATEWAY Ink dialogue system"
+        />
+    </div>
+
+
+    <!-- BRANCHING CHOICES -->
+    <div class="paragraph">
+        <h2>Branching Player Choices</h2>
+
+        The dialogue system supports choices authored through Ink. When the player
+        reaches a decision during a conversation, the available responses are
+        presented through the Unity UI.
+        <br/><br/>
+
+        The player's selection is then passed back into the Ink story, allowing
+        the conversation to continue along the appropriate branch.
+        <br/><br/>
+
+        This separation between narrative content and presentation allowed me to
+        write branching conversations while continuing to use the same underlying
+        dialogue system throughout the level.
+    </div>
+
+
+    <!-- CHOICE IMAGE -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/gateway/gateway-choices.png"
+            alt="Branching player choices in GATEWAY"
+        />
+    </div>
+
+
+    <!-- SPEAKER UI -->
+    <div class="paragraph">
+        <h2>Speaker-Specific Dialogue UI</h2>
+
+        As the narrative system expanded, I wanted different characters to have
+        distinct presentations instead of displaying every conversation through
+        the same static layout.
+        <br/><br/>
+
+        I expanded the system so speaker information could determine elements such
+        as character portraits, dialogue positioning, text presentation, colors,
+        and the placement of player choices.
+        <br/><br/>
+
+        One challenge came from characters whose portraits appeared on different
+        sides of the screen. Simply moving the portrait was not enough. The dialogue
+        text and player choices also needed to move so they would not overlap the
+        character artwork or create awkward compositions.
+    </div>
+
+
+    <!-- SPEAKER LAYOUT IMAGES -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/gateway/gateway-dialogue-left.png"
+            alt="GATEWAY dialogue layout with a character portrait on the left"
+        />
+
+        <img
+            class="pc-screenshot"
+            src="img/projects/gateway/gateway-dialogue-right.png"
+            alt="GATEWAY dialogue layout with a character portrait on the right"
+        />
+    </div>
+
+
+    <!-- ADAPTIVE UI -->
+    <div class="paragraph">
+        <h2>Adaptive Dialogue Layouts</h2>
+
+        Rather than treating portraits, dialogue text, and player choices as
+        unrelated UI elements, I worked toward layouts that could adapt the entire
+        dialogue presentation around the active speaker.
+        <br/><br/>
+
+        The system allows character information to control the position and size
+        of different interface elements so conversations can use different
+        compositions while continuing to rely on the same core dialogue functionality.
+        <br/><br/>
+
+        This made it easier to introduce different speakers without rebuilding
+        the dialogue interface for every character.
+    </div>
+
+
+    <!-- REUSABILITY -->
+    <div class="paragraph">
+        <h2>Building for Reusability</h2>
+
+        The narrative system began as a more limited implementation, but its
+        requirements grew as additional characters, choices, and presentation
+        styles were introduced.
+        <br/><br/>
+
+        I continued restructuring the system so new speakers and conversations
+        could be added without rewriting the underlying dialogue functionality.
+        Speaker data could define the visual information needed by the interface
+        while Ink remained responsible for the narrative flow.
+        <br/><br/>
+
+        This changed the problem from simply making an individual conversation
+        work to developing a narrative framework capable of supporting the rest
+        of the level.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- 3D FPS - CURRENT DEVELOPMENT -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Currently Developing — 3D FPS Combat</h2>
+
+        GATEWAY's next major transition takes the player from the 2D top-down
+        experience into a fully 3D first-person shooter.
+        <br/><br/>
+
+        I am currently working on the combat mechanics, feel, and design of this
+        portion of the game in Unity using C#. Because the FPS is still in active
+        development, these systems are continuing to change as I prototype and
+        iterate on the direction of the combat.
+        <br/><br/>
+
+        One of my references during this process is <em>Forgive Me Father</em>.
+        I have been studying games like it while thinking about elements such as
+        weapon responsiveness, feedback, pacing, and the overall rhythm of
+        first-person combat.
+        <br/><br/>
+
+        As this portion of GATEWAY develops further, I plan to continue documenting
+        the combat systems and the design decisions behind them.
+    </div>
+
+
+    <!-- OPTIONAL: ONE CURRENT FPS DEVELOPMENT IMAGE -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/gateway/gateway-fps-development.png"
+            alt="GATEWAY first-person shooter currently in development"
+        />
+    </div>
+
+
+    <!-- REFLECTION -->
+    <div class="paragraph">
+        <h2>Reflection</h2>
+
+        GATEWAY has given me the opportunity to work between narrative design and
+        technical implementation within a larger project.
+        <br/><br/>
+
+        Developing the 2D portion challenged me to connect narrative writing,
+        Ink, C#, branching choices, UI design, and gameplay progression into a
+        system that could support multiple conversations and characters rather
+        than treating each interaction independently.
+        <br/><br/>
+
+        As the project moves into its 3D portion, I am now applying that same
+        iterative approach to a different problem: designing and developing
+        first-person combat.
+    </div>
+    `,
+    "#55c878"
+),
+
+new ProjectData(
+    "changeling",
+    "Changeling",
+    "img/projects/changeling/Changeling.png",
+    `
+    <div class="paragraph">
+        <strong>Changeling</strong> is a first-person VR narrative mystery developed
+        in Unreal Engine. Players take the role of private detective Aurelia Walker,
+        who possesses the ability to dream-walk through the memories of anyone she
+        touches.
+        <br/><br/>
+
+        I contributed to the project as a level designer, narrative designer, and
+        game developer. My work focused primarily on an early iteration of the
+        Toddler Level, where I developed level and puzzle concepts, while also
+        collaborating on narrative development for the larger Aurelia and Nyx
+        storyline.
+    </div>
+
+
+    <!-- PLAY THE GAME -->
+    <div class="paragraph">
+        <div class="notice">
+            <strong>Explore Changeling VR:</strong>
+            <br/><br/>
+
+            <a
+                href="https://changelingvr.vercel.app/download"
+                target="_blank"
+                rel="noopener noreferrer">
+                Visit the Official Changeling VR Website
+            </a>
+
+            <br/>
+
+            <a
+                href="https://store.steampowered.com/app/3182270/Changeling_VR/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Play Changeling VR on Steam
+            </a>
+        </div>
+    </div>
+
+
+    <!-- PROJECT SNAPSHOT -->
+    <div class="paragraph">
+        <h2>Project Snapshot</h2>
+
+        <ul>
+            <li><strong>Role:</strong> Level Designer / Narrative Designer / Game Developer</li>
+            <li><strong>Engine:</strong> Unreal Engine</li>
+            <li><strong>Programming:</strong> C++ / Blueprints</li>
+            <li><strong>Platform:</strong> VR</li>
+            <li><strong>Genre:</strong> Narrative Mystery / Puzzle</li>
+            <li><strong>Focus:</strong> Level Design, Puzzle Design, Narrative Design, Unreal Prototyping</li>
+        </ul>
+    </div>
+
+
+    <!-- MY ROLE -->
+    <div class="paragraph">
+        <h2>My Role</h2>
+
+        My work on Changeling was split primarily between
+        <strong>level design and narrative design</strong>.
+        <br/><br/>
+
+        On the level design side, I contributed to the development of an early
+        iteration of the Toddler Level, centered around Kirsten and her memories.
+        I developed level and puzzle concepts while learning to work within an
+        established Unreal Engine VR project using C++ and Blueprints.
+        <br/><br/>
+
+        On the narrative side, I collaborated with co-writer
+        <strong>Ben Sultzer</strong> on dialogue and story development. This work
+        extended beyond the Toddler Level and contributed to the larger narrative
+        surrounding Aurelia and Nyx.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- TODDLER LEVEL -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>The Toddler Level</h2>
+
+        My primary level design work focused on an early version of the
+        Toddler Level, which takes place within Kirsten's memories.
+        <br/><br/>
+
+        One of my goals was to approach the environment from the perspective of
+        a young child's imagination. Rather than building another realistic space,
+        I explored the idea of transforming familiar toys and objects into a much
+        larger fantasy world.
+        <br/><br/>
+
+        This led to the concept of a kingdom constructed from children's building
+        blocks, where ordinary toys could become important objects, structures,
+        and landmarks within Kirsten's imagined world.
+    </div>
+
+
+    <!-- ADD TODDLER LEVEL / BLOCKOUT IMAGE HERE IF AVAILABLE -->
+    <!--
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/changeling/changeling-toddler-level.png"
+            alt="Early Toddler Level development in Changeling"
+        />
+    </div>
+    -->
+
+
+    <!-- BUILDING BLOCK PUZZLE -->
+    <div class="paragraph">
+        <h2>Building Block Puzzle Design</h2>
+
+        I developed the foundation for a puzzle structure where the player would
+        explore different sections of the block kingdom, locate missing pieces,
+        and assemble objects needed to continue.
+        <br/><br/>
+
+        Instead of simply collecting keys, the objects would have meaning within
+        the imaginary kingdom. Concepts included reconstructing a lever to interact
+        with the environment, assembling a sword and shield, and recovering a crown.
+        <br/><br/>
+
+        Each completed object would allow the player to progress farther into the
+        level while reinforcing the idea that they were navigating a world created
+        through Kirsten's imagination.
+    </div>
+
+
+    <!-- LEVEL PROGRESSION -->
+    <div class="paragraph">
+        <h2>Designing Progression</h2>
+
+        The puzzle structure was intended to gradually move the player through
+        different sections of the block kingdom rather than presenting every
+        challenge independently.
+        <br/><br/>
+
+        Exploration, object assembly, and environmental interaction would guide
+        the player toward the larger narrative purpose of the level: discovering
+        more about what was happening inside Kirsten's memories and eventually
+        encountering Nyx.
+        <br/><br/>
+
+        Designing the level this way helped me think about puzzles as part of a
+        larger progression loop. A puzzle needed to do more than provide an
+        obstacle; it could reinforce the environment's theme, encourage exploration,
+        and contribute to the narrative at the same time.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- NARRATIVE -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Narrative Development</h2>
+
+        In addition to my level design work, I collaborated with co-writer
+        <strong>Ben Sultzer</strong> on narrative development for Changeling.
+        My writing contributions extended beyond the Toddler Level and included
+        work on the larger story surrounding Aurelia and Nyx.
+        <br/><br/>
+
+        We worked on dialogue and story beats that helped develop the relationship
+        between the two characters across the game. This meant thinking about how
+        information introduced earlier in the experience could establish questions
+        and ideas that would become more important as Aurelia uncovered the truth.
+        <br/><br/>
+
+        Working on narrative across multiple parts of the game challenged me to
+        think beyond an individual scene or level and consider how each interaction
+        contributed to the player's understanding of the larger story.
+    </div>
+
+
+    <!-- TODDLER NARRATIVE -->
+    <div class="paragraph">
+        <h2>Connecting the Toddler Level to the Larger Story</h2>
+
+        The Toddler Level was intended to serve an important narrative purpose
+        beyond its individual puzzles.
+        <br/><br/>
+
+        Kirsten's memory develops into one of Aurelia's more direct encounters
+        with Nyx. What initially appears to be part of a child's imagined world
+        becomes more threatening as Nyx begins interacting directly with Aurelia.
+        <br/><br/>
+
+        This allowed the level to contribute to the larger mystery surrounding
+        Nyx rather than existing as a completely isolated memory.
+    </div>
+
+
+    <!-- WRITING ACROSS GAME -->
+    <div class="paragraph">
+        <h2>Writing Across the Game</h2>
+
+        Collaborating on the Aurelia and Nyx storyline gave me experience thinking
+        about narrative continuity across multiple locations and stages of a game.
+        <br/><br/>
+
+        We had to consider what the player already knew, what information should
+        remain mysterious, and how earlier events could take on additional meaning
+        once the player gained more context.
+        <br/><br/>
+
+        The relationship gradually develops from hints that something is wrong
+        toward Aurelia confronting Nyx and learning more about Nyx's connection
+        to her past, her abilities, and the mystery she has been investigating.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- UNREAL -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Learning Unreal Engine</h2>
+
+        Changeling also gave me the opportunity to expand my experience with
+        <strong>Unreal Engine, C++, and Blueprints</strong> while contributing
+        to an existing VR production.
+        <br/><br/>
+
+        Working inside an established project was different from starting with
+        an empty scene. I needed to understand systems and workflows created by
+        other developers, learn how different parts of the project interacted,
+        and prototype ideas while working within the structure that was already
+        in place.
+        <br/><br/>
+
+        This strengthened my understanding of Unreal's Blueprint workflow and
+        gave me more experience moving between visual scripting, programming,
+        design, and level implementation.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- CUT CONTENT -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>When a Level Gets Cut</h2>
+
+        The iteration of the Toddler Level that I worked on was ultimately cut
+        as the project's scope changed and the team worked within its remaining
+        development time.
+        <br/><br/>
+
+        That meant a significant amount of the level design work I had contributed
+        would not appear in the playable version of the game.
+        <br/><br/>
+
+        While disappointing, this became one of the most valuable production
+        lessons I took away from Changeling.
+        <br/><br/>
+
+        Games change throughout development. Mechanics, levels, and features can
+        be redesigned or removed because of scope, time, technical limitations,
+        or changes in the direction of the larger project. Learning to separate
+        myself from the work, understand why those decisions are sometimes
+        necessary, and continue contributing to the team was an important part
+        of the experience.
+    </div>
+
+
+    <div class="paragraph">
+        <div class="notice">
+            <strong>Production Note:</strong>
+            The Toddler Level described in this case study represents an earlier
+            iteration of Changeling's development. The specific level design and
+            puzzle concepts I worked on were cut as the project evolved.
+        </div>
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- REFLECTION -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Reflection</h2>
+
+        Changeling taught me about much more than level design or learning another
+        game engine.
+        <br/><br/>
+
+        Designing the Toddler Level helped me think about how puzzle mechanics,
+        environmental storytelling, exploration, and narrative could reinforce
+        one another rather than being designed as completely separate parts of
+        the experience.
+        <br/><br/>
+
+        Collaborating on the narrative gave me experience considering story
+        continuity beyond a single level and working with another writer to develop
+        characters and story beats that needed to fit within a much larger game.
+        <br/><br/>
+
+        Working in Unreal expanded my experience with C++ and Blueprints while
+        teaching me how to contribute within systems created by other developers.
+        <br/><br/>
+
+        Most importantly, having a level I worked on ultimately be cut taught me
+        an important lesson about collaborative game development. Not every idea
+        or feature will survive production. Being able to accept those changes,
+        learn from the work, and continue moving the project forward is just as
+        important as creating the work in the first place.
+    </div>
+    `,
+    "#55c878"
 )
 ];
