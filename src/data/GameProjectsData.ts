@@ -2,126 +2,310 @@ import ProjectData from '@/data/ProjectData.ts'
 
 export default [
     new ProjectData(
-        "intergalactic-ducky",
-        "Intergalactic Ducky",
-        "img/projects/intergalactic-ducky/ducky-icon.jpg",
-        `
-        <div class="paragraph">
-            <strong>Intergalactic Ducky</strong> is a 3D isometric adventure game created in Godot during HACK.COMS '24.
-            Players explore an alien planet and complete environmental challenges to recover missing ship parts and escape.
-            The game was developed in only 24 hours and was awarded <strong>Goostavo's Favorite</strong>.
-        </div>
+    "intergalactic-ducky",
+    "Intergalactic Ducky",
+    "img/projects/intergalactic-ducky/ducky-icon.jpg",
+    `
+    <div class="paragraph">
+        <strong>Intergalactic Ducky</strong> is a 3D isometric adventure game
+        created in Godot during HACK.COMS '24.
+        <br/><br/>
 
-        <!-- GAMEPLAY VIDEO -->
-        <div class="paragraph center">
-            <iframe
-                class="youtube"
-                src="https://www.youtube.com/embed/vo88JMvw5Os"
-                title="Intergalactic Ducky Gameplay"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-        </div>
+        After crash-landing on an alien planet, the player must explore the
+        environment and complete three different challenges to recover their
+        missing <strong>fuel, tools, and radio</strong>. Once all three ship
+        parts have been recovered, the player can return to their crashed ship
+        and escape the planet.
+        <br/><br/>
 
-        <!-- HERO GAMEPLAY IMAGE -->
-        <div class="paragraph center">
-            <img
-                class="pc-screenshot"
-                src="img/projects/intergalactic-ducky/ducky-ship.png"
-                alt="Intergalactic Ducky gameplay"
-            />
-        </div>
+        I served as the game's <strong>sole game designer and main level designer</strong>,
+        helping establish the project's direction, control its scope, and design
+        the primary challenges that structured the player's journey.
+        <br/><br/>
 
-        <div class="paragraph">
-            <h2>Project Snapshot</h2>
-            <ul>
-                <li><strong>Role:</strong> Game Designer and Main Level Designer</li>
-                <li><strong>Engine:</strong> Godot</li>
-                <li><strong>Development Time:</strong> 24 Hours</li>
-                <li><strong>Team Size:</strong> 5 Developers</li>
-                <li><strong>Platform:</strong> PC and Controller</li>
-                <li><strong>Award:</strong> Goostavo's Favorite — HACK.COMS '24</li>
-            </ul>
-        </div>
+        The game was created in only <strong>24 hours</strong> and received the
+        <strong>Goostavo's Favorite</strong> award at HACK.COMS '24.
+    </div>
 
+
+    <!-- GAMEPLAY VIDEO -->
+    <div class="paragraph center">
+        <iframe
+            class="youtube"
+            src="https://www.youtube.com/embed/vo88JMvw5Os"
+            title="Intergalactic Ducky Gameplay"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+
+    <!-- SOURCE CODE -->
+    <div class="paragraph">
+        <div class="notice">
+            <strong>View Intergalactic Ducky:</strong>
+            <br/><br/>
+
+            <a
+                href="https://github.com/AJSGOTTHEWAY/Hackathon2024"
+                target="_blank"
+                rel="noopener noreferrer">
+                View the Project on GitHub
+            </a>
+        </div>
+    </div>
+
+
+    <!-- PROJECT SNAPSHOT -->
+    <div class="paragraph">
+        <h2>Project Snapshot</h2>
+
+        <ul>
+            <li><strong>Role:</strong> Game Designer / Main Level Designer</li>
+            <li><strong>Engine:</strong> Godot</li>
+            <li><strong>Development Time:</strong> 24 Hours</li>
+            <li><strong>Team Size:</strong> 5 Developers</li>
+            <li><strong>Platform:</strong> PC / Controller</li>
+            <li><strong>Genre:</strong> 3D Isometric Adventure</li>
+            <li><strong>Focus:</strong> Level Design, Challenge Design, Scope & Project Direction</li>
+            <li><strong>Award:</strong> Goostavo's Favorite — HACK.COMS '24</li>
+        </ul>
+    </div>
+
+
+    <!-- GENERAL GAMEPLAY IMAGE -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/intergalactic-ducky/ducky-ship.png"
+            alt="Intergalactic Ducky crashed ship and alien planet"
+        />
+    </div>
+
+
+    <!-- MY ROLE -->
     <div class="paragraph">
         <h2>My Role</h2>
-        I served as the sole game designer and main level designer on the team.
-        I helped define the overall direction of the game, manage the project's scope,
-        and design the major challenges the player encounters throughout the level.
-    </div>
 
-    <div class="paragraph">
-        <h2>Project Direction and Scope</h2>
-        Our initial idea was to include as many hackathon categories as possible in an effort
-        to increase our chances of winning. This quickly made our ideas too limited and difficult
-        to execute within the 24-hour deadline.
+        I served as the sole game designer and main level designer for
+        Intergalactic Ducky.
         <br/><br/>
-        Drawing from my previous game jam experience, I guided the team toward reducing the scope
-        and focusing on a more cohesive experience. I proposed ducks as the central theme, giving
-        the team a clear creative direction and allowing us to build outward from one strong idea.
-    </div>
 
-    <div class="paragraph">
-        <h2>Level Design</h2>
-        I designed three primary challenges, each built around the game's isometric perspective,
-        movement mechanics, and environmental interactions.
-    </div>
-
-    <div class="paragraph">
-        <h3>Introducing the Transparency Mechanic</h3>
-        The first challenge introduced the player to Cosmo, a helper character located inside a building.
-        Because the isometric camera could cause walls to obstruct the player's view, the team implemented
-        a transparency system that allowed the player to remain visible through nearby geometry.
+        My responsibilities included helping establish the overall concept,
+        controlling the scope of the game, designing the major challenges,
+        determining how the player would progress through the environment,
+        and working with the mechanics being developed by the rest of the team
+        to turn them into playable challenges.
         <br/><br/>
-        After meeting Cosmo, the player could explore behind the building and discover the first ship part.
-        This section taught the player how the camera and transparency system worked through exploration
-        instead of relying on a direct tutorial.
+
+        Because we had only 24 hours, design decisions needed to be made quickly.
+        I could not approach the project by continuously adding new ideas.
+        I needed to understand what our programmers and artists could realistically
+        produce and design around those constraints.
     </div>
+
+
+    <!-- ====================================================== -->
+    <!-- SCOPE & PROJECT DIRECTION -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Finding the Game</h2>
+
+        Our original approach was to try incorporating as many hackathon categories
+        as possible in an attempt to increase our chances of winning.
+        <br/><br/>
+
+        It quickly became clear that this was hurting the project. Instead of
+        giving us more possibilities, the growing list of requirements was making
+        our ideas increasingly complicated and difficult to execute within the
+        24-hour deadline.
+        <br/><br/>
+
+        Drawing from my previous game-jam experience, I pushed the team toward
+        reducing the scope and finding one central idea we could build around.
+        I proposed using <strong>ducks</strong> as the theme.
+        <br/><br/>
+
+        That simple decision gave us something concrete to work from. Combined
+        with the crashed-ship premise and science-fiction setting, we could stop
+        designing around a checklist and start building a cohesive game.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- CORE OBJECTIVE -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Designing the Core Objective</h2>
+
+        Once the basic concept was established, the player's objective became
+        recovering three components needed to escape the planet:
+        <strong>fuel, tools, and a radio</strong>.
+        <br/><br/>
+
+        Rather than placing all three objects around the environment as simple
+        collectibles, I used each one as the reward for a different challenge.
+        <br/><br/>
+
+        This gave the game a straightforward structure:
+        <br/><br/>
+
+        <strong>
+            Explore the planet → Discover a challenge → Recover a ship part →
+            Complete all three challenges → Return to the ship → Escape
+        </strong>
+        <br/><br/>
+
+        The objective was intentionally simple enough for players to understand
+        quickly while still giving us room to create different experiences around
+        each collectible.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- ISOMETRIC CAMERA -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Designing Around the Isometric Camera</h2>
+
+        One of the biggest influences on the level design was the game's fixed
+        isometric perspective.
+        <br/><br/>
+
+        The camera gave the game a distinct visual identity, but it also created
+        an immediate problem: walls, ceilings, and other geometry could easily
+        block the player's view.
+        <br/><br/>
+
+        The team developed transparency and geometry-hiding behavior to keep the
+        player visible when moving behind parts of the environment.
+        <br/><br/>
+
+        Rather than treating that system purely as a technical solution, I began
+        designing challenges around the way it changed what the player could and
+        could not see.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- CHALLENGE 1 -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Challenge 1 — Teaching Through Exploration</h2>
+
+        The first challenge introduced the player to <strong>Cosmo</strong>,
+        a helper character located inside a building.
+        <br/><br/>
+
+        Entering the structure naturally exposed the player to the game's
+        transparency behavior. As walls moved between the camera and player,
+        they became transparent so the player could continue navigating the space.
+        <br/><br/>
+
+        After meeting Cosmo, players could continue exploring around and behind
+        the building to discover one of the missing ship parts.
+        <br/><br/>
+
+        The goal was to teach the player how the camera and visibility systems
+        behaved without stopping the game for a dedicated tutorial explaining them.
+        The player learned by encountering the mechanic naturally while exploring.
+    </div>
+
+
+    <!--
+    ADD COSMO / BUILDING IMAGE HERE IF YOU HAVE ONE
 
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/intergalactic-ducky/ducky-cosmo.jpg"
-            alt="Meeting Cosmo in Intergalactic Ducky"
-        />
-
-        <img
-            class="pc-screenshot"
-            src="img/projects/intergalactic-ducky/ducky-ship-part.jpg"
-            alt="Finding a ship part in Intergalactic Ducky"
+            src="img/projects/intergalactic-ducky/ducky-cosmo.png"
+            alt="Cosmo and the transparency challenge in Intergalactic Ducky"
         />
     </div>
+    -->
+
+
+    <!-- ====================================================== -->
+    <!-- CHALLENGE 2 -->
+    <!-- ====================================================== -->
 
     <div class="paragraph">
-        <h3>Low-Gravity Platforming</h3>
-        The second challenge required the player to jump across floating meteors while navigating reduced gravity.
-        Players had to carefully time their jumps and account for the increased jump height.
+        <h2>Challenge 2 — Low-Gravity Platforming</h2>
+
+        The second challenge changed the player's movement problem entirely.
         <br/><br/>
-        The isometric perspective made judging depth and landing positions more difficult, which increased the
-        challenge and made reaching the ship part at the end feel earned.
+
+        The player needed to cross a series of floating meteors while navigating
+        the planet's reduced gravity. The lower gravity increased jump height and
+        airtime, requiring players to think more carefully about when and where
+        they jumped.
+        <br/><br/>
+
+        The isometric camera added another layer to the challenge because depth
+        and landing positions were more difficult to judge from the fixed angle.
+        <br/><br/>
+
+        I used those limitations intentionally. Instead of trying to make the
+        platforming behave exactly like a traditional side-scrolling platformer,
+        the challenge asked players to learn how movement felt specifically within
+        our isometric environment.
+        <br/><br/>
+
+        Successfully crossing the meteors rewarded the player with another
+        component needed to repair the ship.
     </div>
+
+
+    <!--
+    ADD METEOR IMAGE HERE IF YOU HAVE ONE
 
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/intergalactic-ducky/ducky-meteor-platforming.jpg"
-            alt="Low-gravity platforming challenge in Intergalactic Ducky"
+            src="img/projects/intergalactic-ducky/ducky-meteors.png"
+            alt="Low-gravity meteor platforming in Intergalactic Ducky"
         />
     </div>
+    -->
+
+
+    <!-- ====================================================== -->
+    <!-- CHALLENGE 3 -->
+    <!-- ====================================================== -->
 
     <div class="paragraph">
-        <h3>The Invisible Maze</h3>
-        A traditional maze would have been too easy because the isometric perspective and transparency mechanic
-        allowed the player to see through walls and identify the correct path.
+        <h2>Challenge 3 — The Invisible Maze</h2>
+
+        The third challenge created an unusual design problem.
         <br/><br/>
-        To solve this, I inverted the mechanic by making the maze's walls and roof transparent.
-        The player could see the goal but could not clearly see the route leading toward it.
-        They had to navigate through trial and error, remember the correct path, and retrace their steps
-        after collecting the final ship part.
+
+        I initially wanted to create a maze, but a normal maze did not work well
+        with our existing mechanics. Because the game used an isometric camera
+        and could make obstructing geometry transparent, the player could potentially
+        see through the maze walls and identify the correct route.
+        <br/><br/>
+
+        Instead of fighting against the transparency system, I decided to
+        <strong>invert it</strong>.
+        <br/><br/>
+
+        The maze's walls and roof were made transparent. The player could clearly
+        see the goal but could not clearly see the barriers creating the path
+        toward it.
+        <br/><br/>
+
+        Navigation became a process of trial, error, and memory. Players needed
+        to feel their way through the invisible structure, remember which routes
+        worked, reach the ship part, and then navigate back out.
     </div>
 
+
+    <!-- INVISIBLE MAZE -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
@@ -130,47 +314,170 @@ export default [
         />
     </div>
 
-    <div class="paragraph">
-        <h2>Environment Design</h2>
-        We chose a science-fiction space theme to support the crashed-ship premise.
-        I helped establish the visual direction of the alien planet and selected a background that made the
-        environment feel larger and more planetary.
-        <br/><br/>
-        I collaborated with another teammate who helped expand the terrain, create the mountainous borders,
-        and reinforce the boundaries of the playable area.
-    </div>
+
+    <!-- ====================================================== -->
+    <!-- DESIGN ITERATION -->
+    <!-- ====================================================== -->
 
     <div class="paragraph">
-        <h2>Challenges</h2>
-        The largest challenge was the 24-hour development window.
-        Every team member was using Godot for the first time, and we also chose to build a 3D game,
-        which increased the technical and production risk.
+        <h2>Turning a Limitation Into a Mechanic</h2>
+
+        The invisible maze became one of my favorite design decisions from the
+        project because it came directly from understanding a limitation of the
+        game.
         <br/><br/>
-        Keeping the project achievable required constant prioritization, communication, and scope control.
+
+        The transparency system existed because the isometric camera could obscure
+        the player. That same solution initially seemed to make a maze impossible
+        because players could see information that would normally be hidden.
+        <br/><br/>
+
+        By reversing the relationship, the system stopped being a problem and
+        became the challenge itself.
+        <br/><br/>
+
+        That experience reinforced an approach to design that I have continued
+        using in later projects: before adding another mechanic to solve a problem,
+        look at the systems already available and ask whether the problem itself
+        can become part of the gameplay.
     </div>
+
+
+    <!-- ====================================================== -->
+    <!-- ENVIRONMENT DESIGN -->
+    <!-- ====================================================== -->
 
     <div class="paragraph">
-        <h2>Reflection</h2>
-        Intergalactic Ducky taught me that strong game design is not about including the greatest number of ideas.
-        It is about identifying which ideas are achievable, communicating a clear direction, and polishing the
-        features that have the greatest impact on the player experience.
+        <h2>Environment & World Design</h2>
+
+        We chose a science-fiction setting to support the crashed-ship premise
+        and give the three challenges a shared context.
         <br/><br/>
-        The project also showed me that I could lead a team through uncertainty, learn a new engine under pressure,
-        and still help deliver an award-winning game within a strict deadline.
+
+        I helped establish the visual direction of the alien planet and selected
+        a background that made the relatively small playable environment feel
+        like part of a much larger world.
+        <br/><br/>
+
+        I collaborated with another teammate who helped expand the terrain,
+        create the mountainous borders, and reinforce the boundaries surrounding
+        the playable area.
+        <br/><br/>
+
+        Because development time was extremely limited, the environment needed
+        to communicate where players could travel without requiring complicated
+        additional systems.
     </div>
 
+
+    <!-- ENVIRONMENT IMAGE -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
-            src="img/projects/intergalactic-ducky/ducky-final-dialogue.jpg"
-            alt="Intergalactic Ducky final objective"
+            src="img/projects/intergalactic-ducky/ducky-environment.png"
+            alt="Alien planet environment in Intergalactic Ducky"
         />
     </div>
+
+
+    <!-- ====================================================== -->
+    <!-- FINAL OBJECTIVE -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Completing the Loop</h2>
+
+        The three challenges ultimately reconnect at the crashed ship.
+        <br/><br/>
+
+        As players explore, the game tracks the components they have recovered.
+        Once the fuel, tools, and radio have all been collected, the player can
+        return to the ship and complete the objective.
+        <br/><br/>
+
+        Giving every challenge the same larger purpose helped keep the experience
+        understandable despite each section using a different style of gameplay.
+        <br/><br/>
+
+        The platforming challenge, exploration challenge, and invisible maze were
+        not disconnected minigames; they were three different obstacles standing
+        between the player and the same goal:
+        <strong>getting off the planet.</strong>
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- DEVELOPMENT CONSTRAINT -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Designing in 24 Hours</h2>
+
+        The largest constraint throughout development was time.
+        <br/><br/>
+
+        Every member of the team was using Godot for the first time, and we also
+        chose to create a 3D game, increasing the technical and production risk.
+        <br/><br/>
+
+        There was no time to fully explore every idea or polish every mechanic.
+        Design decisions had to account for what could realistically be implemented
+        by the rest of the team before the deadline.
+        <br/><br/>
+
+        This made communication between design and programming especially important.
+        As mechanics became available, I needed to understand what they could do
+        and quickly determine how they could support the level.
+        <br/><br/>
+
+        Keeping the project achievable required constant prioritization and a
+        willingness to abandon ideas that were not essential to the experience.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- AWARD -->
+    <!-- ====================================================== -->
 
     <div class="paragraph">
         <div class="notice">
             Awarded <strong>Goostavo's Favorite</strong> at HACK.COMS '24.
         </div>
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- REFLECTION -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Reflection</h2>
+
+        Intergalactic Ducky taught me that strong game design is not about
+        including the greatest number of ideas.
+        <br/><br/>
+
+        It is about identifying the ideas that best support the experience,
+        understanding what the team can realistically build, and using the
+        mechanics available to create something cohesive.
+        <br/><br/>
+
+        The invisible maze was probably the clearest example of that lesson.
+        A system that initially appeared to undermine one of my level ideas
+        ultimately became the foundation for the challenge once I approached
+        the problem differently.
+        <br/><br/>
+
+        The project also gave me experience guiding a team through uncertainty.
+        We entered the hackathon using an unfamiliar engine, attempted a 3D game,
+        changed our original direction, and still delivered a complete experience
+        within 24 hours.
+        <br/><br/>
+
+        Winning Goostavo's Favorite was exciting, but my biggest takeaway was
+        learning how much can be accomplished when a team establishes a clear
+        direction, controls its scope, and designs around the strengths of the
+        systems it can actually build.
     </div>
     `,
     "#55c878",
@@ -182,12 +489,18 @@ export default [
     "img/projects/bionaut/bionaut-icon.png",
     `
     <div class="paragraph">
-        <strong>Bionaut</strong> is a 2D top-down space exploration game developed in Unity.
-        Stranded in an unknown part of the galaxy, the player must explore alien planets,
-        discover and befriend wildlife, recover ship parts, and find a way home.
-        Each planet introduces new environments and critters whose unique behaviors and
-        abilities encourage the player to explore further.
+        <strong>Bionaut</strong> is a 2D top-down space exploration game developed
+        in Unity. Stranded in an unknown part of the galaxy, the player explores
+        alien planets, encounters unusual wildlife, collects ship parts and items,
+        and uses a variety of tools while searching for a way home.
+        <br/><br/>
+
+        I worked as a <strong>project lead, level designer, and programmer</strong>,
+        contributing to the structure of the planets, tutorial progression,
+        scene and planet integration, UI, debugging, and the process of bringing
+        the team's independently developed systems together into playable builds.
     </div>
+
 
     <!-- GAMEPLAY VIDEO -->
     <div class="paragraph center">
@@ -201,8 +514,27 @@ export default [
         </iframe>
     </div>
 
+
+    <!-- PLAY THE GAME -->
+    <div class="paragraph">
+        <div class="notice">
+            <strong>Play Bionaut:</strong>
+            <br/><br/>
+
+            <a
+                href="https://ajsgottheway.itch.io/bionaut"
+                target="_blank"
+                rel="noopener noreferrer">
+                Play Bionaut on itch.io
+            </a>
+        </div>
+    </div>
+
+
+    <!-- PROJECT SNAPSHOT -->
     <div class="paragraph">
         <h2>Project Snapshot</h2>
+
         <ul>
             <li><strong>Role:</strong> Project Lead / Level Designer / Programmer</li>
             <li><strong>Engine:</strong> Unity</li>
@@ -210,8 +542,10 @@ export default [
             <li><strong>Team Size:</strong> 5 Developers</li>
             <li><strong>Genre:</strong> 2D Top-Down Space Exploration</li>
             <li><strong>Core Pillars:</strong> Exploration, Curiosity, Companionship</li>
+            <li><strong>Focus:</strong> Tutorial Design, Planet Design, Scene Integration, UI, Builds & Debugging</li>
         </ul>
     </div>
+
 
     <div class="paragraph">
         <div class="notice">
@@ -219,32 +553,58 @@ export default [
         </div>
     </div>
 
+
+    <!-- MY ROLE -->
     <div class="paragraph">
         <h2>My Role</h2>
-        I worked as a <strong>project lead, level designer, and programmer</strong> on Bionaut.
-        My responsibilities grew throughout development from designing and implementing
-        environments to integrating features, preparing builds, fixing bugs, and helping
-        coordinate the team's development process.
+
+        My responsibilities on Bionaut grew throughout the semester.
+        I began primarily working on the game's levels and environments, but over
+        time I also became involved in programming, scene integration, UI work,
+        debugging, build preparation, and coordinating the team's development.
         <br/><br/>
-        Taking on a leadership position meant thinking beyond my individual work. I needed
-        to understand what everyone was working on, keep the team moving toward our sprint
-        goals, help resolve problems, and make sure our independently developed systems
-        came together into a playable build.
+
+        As project lead, I needed to think beyond whether my individual task was
+        complete. I had to understand what everyone was building, help establish
+        priorities for upcoming playtests, communicate when something was blocking
+        development, and make sure our separately developed systems eventually
+        worked together inside the same build.
+        <br/><br/>
+
+        That combination of design, implementation, and integration made Bionaut
+        one of my first projects where I regularly moved between different areas
+        depending on what the game needed.
     </div>
+
+
+    <!-- ====================================================== -->
+    <!-- PROJECT LEADERSHIP -->
+    <!-- ====================================================== -->
 
     <div class="paragraph">
         <h2>Project Leadership</h2>
-        Bionaut was one of my first experiences taking a larger leadership role throughout
-        an entire game-development cycle. Early in development, I took initiative by creating
-        a functional demo before much of the final game had been implemented. This gave the
-        team a template to build from and helped us establish a common direction.
+
+        Bionaut was one of my first experiences taking a larger leadership role
+        throughout an entire game-development cycle.
         <br/><br/>
-        Throughout the semester, I helped organize our priorities around sprint deadlines
-        and playtests while also contributing directly to the game. I learned that leading
-        a team is not simply about assigning work. It requires communication, accountability,
-        and being willing to step in when something needs to get done.
+
+        Early in development, I took initiative by creating a basic playable
+        starting point before much of the final game had been implemented.
+        Giving the team something concrete to build around helped us establish
+        direction and provided a common environment where new systems could
+        eventually be integrated.
+        <br/><br/>
+
+        Throughout the semester, I helped keep the team focused around sprint
+        deadlines and playtests while still contributing directly to development.
+        I learned that leading a game project was not simply about assigning tasks.
+        It meant helping people communicate, recognizing when our process was
+        failing, and being willing to take responsibility for getting the project
+        into a playable state.
     </div>
 
+
+    <!-- DEVELOPMENT / TASK IMAGE -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
@@ -253,87 +613,233 @@ export default [
         />
     </div>
 
-   <div class="paragraph">
-    <h2>Tutorial Level Design</h2>
-    I worked heavily on the design and implementation of the first planet, which served
-    as the game's tutorial. The goal was to introduce movement, exploration, tools,
-    interactions, and critters without overwhelming the player.
-    <br/><br/>
-    Early playtests showed that players enjoyed exploring the world but were sometimes
-    unsure about what they were supposed to be doing. In response, we iterated on the
-    tutorial several times and created a more structured opening that gradually introduced
-    mechanics before giving the player greater freedom to explore.
-    <br/><br/>
-    This allowed us to preserve <strong>exploration</strong> as one of the game's core
-    pillars without sacrificing clarity during the player's first few minutes.
-</div>
 
-<div class="paragraph center">
-    <img
-        class="pc-screenshot"
-        src="img/projects/bionaut/bionaut-tutorial.png"
-        alt="Bionaut tutorial planet"
-    />
-
-    <img
-        class="pc-screenshot"
-        src="img/projects/bionaut/bionaut-pod.png"
-        alt="Bionaut tutorial pod"
-    />
-</div>
+    <!-- ====================================================== -->
+    <!-- TUTORIAL LEVEL -->
+    <!-- ====================================================== -->
 
     <div class="paragraph">
-        <h2>Planet & Environment Design</h2>
-        A major part of my work involved building and refining the environments the player
-        explored. I worked with Unity's tilemap system to construct the tutorial planet,
-        update its layout, resolve collision issues, and add environmental details such as
-        transparent objects and hidden easter eggs that rewarded exploration.
+        <h2>Tutorial Planet Design</h2>
+
+        A major part of my level-design work focused on the first planet,
+        <strong>Silva</strong>, which served as the player's introduction to Bionaut.
         <br/><br/>
-        The planets used a looping world system to create the feeling of traveling around a
-        small spherical world. I helped troubleshoot issues with this system as additional
-        environmental elements were introduced.
+
+        The challenge was that exploration was one of the game's core ideas, but
+        early playtests showed that giving players too much freedom immediately
+        could leave them unsure about what they were supposed to do.
+        <br/><br/>
+
+        We iterated on the planet several times to create a more controlled opening.
+        The player could gradually become familiar with movement, interactions,
+        tools, wildlife, and the pod before being expected to understand the larger
+        exploration loop.
+        <br/><br/>
+
+        This taught me that a game about discovery still needs strong onboarding.
+        Giving the player structure early can actually make later exploration feel
+        more rewarding because they understand the rules of the world they are
+        experimenting with.
     </div>
 
+
+    <!-- TUTORIAL IMAGES -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/bionaut/bionaut-tutorial.png"
+            alt="Bionaut tutorial planet"
+        />
+
+        <img
+            class="pc-screenshot"
+            src="img/projects/bionaut/bionaut-pod.png"
+            alt="Bionaut tutorial pod"
+        />
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- TILEMAP / PLANET DESIGN -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Building the Planets</h2>
+
+        I worked extensively with Unity's Tilemap system to construct and refine
+        the playable planets.
+        <br/><br/>
+
+        My work included building the tutorial layout, adjusting collisions,
+        updating the map as new art and gameplay systems were introduced, and
+        adding environmental details such as transparent objects and hidden
+        easter eggs that rewarded players for exploring.
+        <br/><br/>
+
+        Because Bionaut's worlds were designed to feel like small planets rather
+        than traditional rectangular maps, the environment also needed to support
+        the game's looping world behavior.
+    </div>
+
+
+    <!-- WORLD / CRITTER IMAGES -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
             src="img/projects/bionaut/bionaut-critter-capture.png"
-            alt="Capturing and naming a critter in Bionaut"
+            alt="Exploring and interacting with wildlife in Bionaut"
         />
 
         <img
             class="pc-screenshot"
             src="img/projects/bionaut/bionaut-critters.png"
-            alt="Critters in the Bionaut environment"
+            alt="Critters within Bionaut's environment"
         />
     </div>
 
-    <div class="paragraph">
-        <h3>Expanding to a Second Planet</h3>
-        Later in development, I helped expand the game by creating and implementing the
-        second playable planet: a desert environment that provided a visual and gameplay
-        contrast to the greener tutorial world.
-        <br/><br/>
-        I integrated the new level with the existing planet-transition system, added logic
-        for tracking the previously visited scene, implemented critter behavior animations,
-        and added a sand effect overlay to reinforce the planet's harsh environment.
-        <br/><br/>
-        Building the second planet was an important milestone because it demonstrated that
-        the exploration structure we created could support multiple distinct worlds.
-    </div>
+
+    <!-- ====================================================== -->
+    <!-- LOOPING PLANET -->
+    <!-- ====================================================== -->
 
     <div class="paragraph">
-        <h2>Main Menu & UI</h2>
-        During a later polish sprint, I created the game's main menu system and interface.
-        This work came at a point where the team deliberately shifted our priorities away
-        from continuously adding features and toward improving the usability and presentation
-        of what we already had.
+        <h2>The Looping World</h2>
+
+        One of Bionaut's more unusual environment systems allows the player to
+        travel around the edge of a map and continue from the opposite side,
+        helping a relatively small 2D space feel more like traveling around
+        the surface of a tiny planet.
         <br/><br/>
-        Playtesting throughout development reinforced how important clear UI and onboarding
-        were for an exploration-focused game. Players needed enough information to understand
-        their tools and objectives without removing the sense of discovery that defined Bionaut.
+
+        As we expanded the maps, this system created additional level-design and
+        integration challenges. Collisions, environmental objects, and new map
+        elements all needed to behave correctly near the boundaries.
+        <br/><br/>
+
+        I contributed to debugging issues with the looping tilemap and adjusting
+        the level as new content was introduced. This was a good example of how
+        level design and technical implementation can affect one another: changing
+        the environment could expose problems in the systems responsible for
+        making that environment work.
     </div>
 
+
+    <!-- ====================================================== -->
+    <!-- GAMEPLAY LOOP -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Supporting the Exploration Loop</h2>
+
+        The completed game brings several team-developed systems together around
+        a central exploration loop.
+        <br/><br/>
+
+        Players leave the pod, explore a planet, interact with its wildlife and
+        environment, collect items and ship parts, and use different tools depending
+        on what they encounter.
+        <br/><br/>
+
+        My level work needed to provide spaces where those systems could actually
+        be discovered and used. That meant thinking about where the player would
+        encounter critters, objectives, interactable objects, environmental
+        boundaries, and routes back toward the pod.
+        <br/><br/>
+
+        Even when I was not the programmer responsible for an individual gameplay
+        system, I needed to understand how that system affected the spaces and
+        progression I was designing around it.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- POD / PLANET TRANSITION -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Connecting the Planets</h2>
+
+        Expanding Bionaut beyond a single planet required more than creating
+        another map. The new world needed to fit into the game's existing travel
+        flow.
+        <br/><br/>
+
+        The player's journey between levels is structured around the pod:
+        the player enters the ship from a planet, accesses the planet map,
+        selects a destination, returns to the pod, and then exits into the
+        selected planet.
+        <br/><br/>
+
+        I worked on integrating the second planet into this flow and added logic
+        needed to keep track of the relevant scene as the player moved between
+        different parts of the game.
+        <br/><br/>
+
+        In the final project, the planet map stores the selected planet scene,
+        returns the player to the pod, and the pod door loads the selected
+        destination. Working with this transition helped me better understand
+        how separate Unity scenes could be connected into a larger gameplay loop.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- SECOND PLANET -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Expanding to a Second Planet</h2>
+
+        Later in development, I helped expand Bionaut with a second playable
+        planet: <strong>Ardus</strong>, a desert environment that contrasted
+        with the greener tutorial world.
+        <br/><br/>
+
+        I worked on creating and integrating the new level, connecting it to the
+        existing planet-transition flow, and adding presentation details that helped
+        distinguish it from Silva.
+        <br/><br/>
+
+        I also implemented critter behavior animations within the environment
+        and added a sand overlay effect to reinforce the harsher atmosphere of
+        the desert planet.
+        <br/><br/>
+
+        Reaching a second playable planet was an important milestone because it
+        demonstrated that the structure we had built could support the original
+        concept of traveling between distinct worlds rather than functioning only
+        as a single-level prototype.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- MAIN MENU -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Main Menu & Interface Work</h2>
+
+        During a later polish sprint, I created Bionaut's main menu system and
+        interface.
+        <br/><br/>
+
+        This came at a point where the team deliberately shifted away from
+        continuously adding new features and instead focused on improving the
+        stability, usability, and presentation of the game we already had.
+        <br/><br/>
+
+        Playtesting had repeatedly shown us that interface clarity mattered.
+        Players enjoyed moving around and interacting with the world, but confusion
+        around menus, objectives, and available actions could make it difficult
+        for them to understand the experience.
+        <br/><br/>
+
+        That reinforced for me that UI is not separate from gameplay design.
+        Even a strong mechanic can become frustrating if the player cannot
+        understand how to access or use it.
+    </div>
+
+
+    <!-- EXISTING GAME UI -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
@@ -360,80 +866,177 @@ export default [
         />
     </div>
 
+
+    <!-- ====================================================== -->
+    <!-- INTEGRATION -->
+    <!-- ====================================================== -->
+
     <div class="paragraph">
         <h2>Build Integration & Debugging</h2>
-        As my responsibilities grew, I also took on integration work. I merged changes from
-        multiple team members, resolved conflicts and bugs, and prepared demo builds for our
-        playtests.
+
+        As my responsibilities grew, I also became involved in integrating work
+        from multiple team members and preparing demo builds for our playtests.
         <br/><br/>
-        One sprint demonstrated how risky late integration could be. Several systems were
-        merged close to the playtest deadline without enough time for testing, resulting in
-        visible bugs in the final build.
+
+        This became especially important because each developer was working on
+        different systems and Git branches. Individual features could work correctly
+        on their own and still create problems once everything was brought together.
         <br/><br/>
-        We changed our process in response. Individual work was expected to be completed
-        earlier, allowing us to dedicate the following day specifically to merging, building,
-        debugging, and testing. The next playtest had significantly fewer new issues and gave
-        testers more opportunity to evaluate the game itself instead of being distracted by bugs.
+
+        During one sprint, we integrated several major changes too close to the
+        playtest deadline. The resulting build contained numerous visible bugs,
+        including issues with newly introduced environment elements and systems
+        interacting incorrectly.
+        <br/><br/>
+
+        I helped merge our changes and prepare the demo build, which made the
+        consequences of late integration very obvious.
     </div>
+
+
+    <!-- ====================================================== -->
+    <!-- PROCESS ITERATION -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Changing Our Development Process</h2>
+
+        Rather than treating the problematic build as only a collection of bugs,
+        we changed the way we approached the following sprint.
+        <br/><br/>
+
+        We began setting an earlier internal deadline for feature work so that
+        the final day before a playtest could be dedicated specifically to
+        merging, building, debugging, and testing.
+        <br/><br/>
+
+        That change resulted in a much smoother integration process and fewer
+        new problems in the following build.
+        <br/><br/>
+
+        Bionaut taught me that development process directly affects game quality.
+        Giving a team enough time to integrate and test work can be just as
+        important as the amount of content produced during the sprint.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- PLAYTESTING -->
+    <!-- ====================================================== -->
 
     <div class="paragraph">
         <h2>Designing Through Playtesting</h2>
-        Playtesting was an important part of Bionaut's development. Feedback influenced
-        changes to the tutorial, controls, collisions, menus, critter interactions, and the
-        amount of direction given to the player.
+
+        Bionaut was repeatedly tested throughout the semester, and those sessions
+        had a major influence on how the game evolved.
         <br/><br/>
-        One of the biggest design challenges was finding the balance between
-        <strong>guidance and discovery</strong>. We wanted players to feel as though they
-        were exploring an unknown world, but too little direction caused confusion.
-        Iterating on the tutorial taught me that giving players structure early can actually
-        make later exploration feel more rewarding because they understand the systems they
-        are experimenting with.
+
+        One of the most consistent lessons was the balance between
+        <strong>guidance and discovery</strong>.
+        <br/><br/>
+
+        Players generally enjoyed exploring the planets and interacting with the
+        critters, but early versions sometimes provided so little direction that
+        players did not understand their immediate objective.
+        <br/><br/>
+
+        Instead of abandoning exploration as a core pillar, we adjusted the
+        onboarding and progression around it. The opening became more structured
+        so the player could understand the game's basic language before being
+        given greater freedom.
+        <br/><br/>
+
+        That experience changed the way I think about player freedom. Giving the
+        player options is valuable, but those options only become meaningful once
+        the player understands the systems available to them.
     </div>
 
+
+    <!-- ====================================================== -->
+    <!-- SCOPE -->
+    <!-- ====================================================== -->
+
     <div class="paragraph">
-        <h2>Scope & Production Challenges</h2>
-        Our original vision included several planets for the player to explore. As development
-        continued, we realized that creating multiple complete planets with unique environments,
-        critters, interactions, and progression was too ambitious for a single semester.
+        <h2>Managing Scope</h2>
+
+        Our original vision was much larger than the game we ultimately shipped.
+        We initially imagined several different planets, each containing unique
+        environments, critters, interactions, and progression.
         <br/><br/>
-        We ultimately focused on creating two playable planets rather than spreading our
-        development time across several unfinished worlds. Some planned features, including
-        a more complete ship-repair progression system, were also reduced or removed.
+
+        As development continued, it became clear that creating three to six
+        complete planets within a semester would spread our time across too many
+        unfinished environments.
         <br/><br/>
-        This experience taught me that protecting the core experience sometimes means
-        cutting features. A smaller, functional game gives the team a much stronger foundation
-        than a larger collection of unfinished ideas.
+
+        We ultimately focused on building two playable planets and strengthening
+        the systems that supported them. Other planned features, including a more
+        complete process for rebuilding the player's ship, were reduced or cut.
+        <br/><br/>
+
+        That decision reinforced a lesson I had encountered in shorter game jams:
+        protecting the core experience is more valuable than keeping every idea
+        simply because it was part of the original plan.
     </div>
+
+
+    <!-- ====================================================== -->
+    <!-- LEADERSHIP REFLECTION -->
+    <!-- ====================================================== -->
+
+    <div class="paragraph">
+        <h2>Learning to Lead a Team</h2>
+
+        Taking on a project-lead position meant accepting responsibility beyond
+        my own individual contribution.
+        <br/><br/>
+
+        I learned that keeping a team moving requires more than knowing what
+        everyone is supposed to build. Interpersonal conflicts happen, people
+        encounter unexpected problems, workloads change, and sometimes the plan
+        for a sprint simply does not work.
+        <br/><br/>
+
+        Keeping a cool head and making sure everyone had an opportunity to
+        communicate became increasingly important as development continued.
+        I also learned that a leader has to set an example. If something needed
+        to be integrated, tested, organized, or prepared for a build, I wanted
+        my teammates to know that I was willing to step in and help get it done.
+        <br/><br/>
+
+        It was not always easy, but it gave me a much better understanding of
+        what leadership means inside a collaborative development environment.
+    </div>
+
+
+    <!-- ====================================================== -->
+    <!-- REFLECTION -->
+    <!-- ====================================================== -->
 
     <div class="paragraph">
         <h2>Reflection</h2>
-        Bionaut was one of the projects that helped me grow the most as both a developer
-        and a team member. It was one of my first opportunities to take a real leadership
-        position throughout a longer development cycle.
-        <br/><br/>
-        I learned that leadership carries responsibility. When something goes wrong, a leader
-        cannot simply focus on their own contribution. I had to learn how to keep everyone
-        moving forward, deal with interpersonal conflicts, maintain a cool head when problems
-        appeared, and make sure everyone had an opportunity to communicate how they felt.
-        <br/><br/>
-        I also learned the importance of leading by example. Whether that meant creating an
-        early demo to give the team a starting point, merging everyone's work into a playable
-        build, fixing problems before a playtest, or taking responsibility when our process
-        failed, I wanted my teammates to know that they could rely on me.
-        <br/><br/>
-        Bionaut was an experience I cherish because it changed how I approach collaborative
-        development. I came away from the project as a stronger designer and programmer,
-        but more importantly, with a much better understanding of what it takes to help
-        lead a team through the challenges of making a game.
-    </div>
 
-    <div class="paragraph">
-        <div class="notice">
-            Play Bionaut on
-            <a href="https://ajsgottheway.itch.io/bionaut" target="_blank">itch.io</a>
-            or view the project on
-            <a href="https://github.com/masterbbud/Bionaut" target="_blank">GitHub</a>.
-        </div>
+        Bionaut was one of the projects that helped me grow the most because
+        I experienced much more than one development discipline while making it.
+        <br/><br/>
+
+        Level design taught me how onboarding, environment layout, and player
+        direction interact with systems built by the rest of the team.
+        Programming and scene integration gave me experience connecting separate
+        pieces of the game into a larger structure. Build preparation showed me
+        how quickly individually functional features can fail when integrated
+        without enough testing.
+        <br/><br/>
+
+        Most importantly, leading the project taught me to think about the health
+        of the entire team and game rather than judging success only by the work
+        I personally completed.
+        <br/><br/>
+
+        I came away from Bionaut as a stronger designer and developer, but also
+        with a much better understanding of collaboration, scope, iteration,
+        communication, and the responsibility involved in helping guide a game
+        from an early prototype toward a finished experience.
     </div>
     `,
     "#55c878",
@@ -445,11 +1048,17 @@ new ProjectData(
     "img/projects/twelve-mage/twelve-mage-icon.png",
     `
     <div class="paragraph">
-        <strong>Twelve Mage</strong> is a 2D top-down horde shooter built in C# using MonoGame.
-        Players control a mage armed with a shotgun and several magical abilities while fighting
-        increasingly difficult waves of enemies. The goal is to survive as long as possible and
-        achieve the highest score you can.
+        <strong>Twelve Mage</strong> is a 2D top-down horde shooter built in C#
+        using MonoGame. Players control a mage armed with a shotgun and magical
+        abilities while fighting increasingly difficult waves of enemies.
+        The goal is to survive as long as possible and achieve the highest score.
+        <br/><br/>
+
+        I worked primarily as a gameplay programmer and mechanics designer,
+        contributing to the underlying combat systems and helping establish
+        foundations that other members of the team continued to expand.
     </div>
+
 
     <!-- GAMEPLAY VIDEO -->
     <div class="paragraph center">
@@ -463,8 +1072,27 @@ new ProjectData(
         </iframe>
     </div>
 
+
+    <!-- PLAY THE GAME -->
+    <div class="paragraph">
+        <div class="notice">
+            <strong>Play Twelve Mage:</strong>
+            <br/><br/>
+
+            <a
+                href="https://lmendrick.itch.io/twelve-mage"
+                target="_blank"
+                rel="noopener noreferrer">
+                Play Twelve Mage on itch.io
+            </a>
+        </div>
+    </div>
+
+
+    <!-- PROJECT SNAPSHOT -->
     <div class="paragraph">
         <h2>Project Snapshot</h2>
+
         <ul>
             <li><strong>Role:</strong> Gameplay Programmer / Mechanics Designer</li>
             <li><strong>Framework:</strong> MonoGame</li>
@@ -472,16 +1100,32 @@ new ProjectData(
             <li><strong>Team Size:</strong> 4 Developers</li>
             <li><strong>Genre:</strong> 2D Top-Down Horde Shooter</li>
             <li><strong>Development:</strong> Fall 2023</li>
+            <li><strong>Focus:</strong> Projectiles, Combat Logic, Damage Systems, Weapon Prototyping, Game-State Foundations</li>
         </ul>
     </div>
 
+
+    <!-- MY ROLE -->
     <div class="paragraph">
         <h2>My Role</h2>
-        I worked primarily as a gameplay programmer and mechanics designer on Twelve Mage.
-        My contributions focused on combat functionality, including projectile behavior,
-        collision and damage handling, weapon prototyping, the early structure of the game-state
-        system, and final polish.
+
+        I worked primarily as a gameplay programmer and mechanics designer on
+        Twelve Mage. My contributions focused on establishing several of the
+        systems needed for the game's combat.
+        <br/><br/>
+
+        I developed the original projectile system, worked on collision and
+        player-damage behavior, prototyped the game's gun class, contributed
+        foundations that were later expanded by other members of the team, and
+        returned during the final sprint to help with additional polish and
+        interface functionality.
+        <br/><br/>
+
+        Because Twelve Mage was developed directly with MonoGame rather than a
+        full game engine, much of this functionality had to be structured and
+        implemented directly in C#.
     </div>
+
 
     <!-- GENERAL GAMEPLAY -->
     <div class="paragraph center">
@@ -492,15 +1136,34 @@ new ProjectData(
         />
     </div>
 
-    <div class="paragraph">
-        <h2>Projectile System</h2>
-        I created the projectile class used as the foundation for the player's ranged combat.
-        Each time the player fired, a new projectile was created and given a limited lifetime.
-        I implemented a four-second timer so projectiles would automatically be removed instead
-        of remaining active indefinitely after leaving the main play area.
-    </div>
 
     <!-- PROJECTILE SYSTEM -->
+    <div class="paragraph">
+        <h2>Projectile System</h2>
+
+        One of my primary contributions was creating the projectile class used
+        as a foundation for the player's ranged combat.
+        <br/><br/>
+
+        Rather than treating a projectile as only an image moving across the
+        screen, the class was responsible for tracking several pieces of its
+        gameplay behavior, including movement, lifetime, distance traveled,
+        and how many targets it could hit.
+        <br/><br/>
+
+        Projectiles track their starting position and displacement as they move,
+        allowing them to be removed after exceeding their intended range.
+        They also have a limited lifetime so projectiles cannot continue existing
+        indefinitely after leaving the relevant play space.
+        <br/><br/>
+
+        The system also supports a hit limit, providing a foundation for
+        projectiles that can penetrate or interact with multiple targets before
+        being removed.
+    </div>
+
+
+    <!-- PROJECTILE IMAGE -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
@@ -509,15 +1172,47 @@ new ProjectData(
         />
     </div>
 
+
+    <!-- PROJECTILE MANAGEMENT -->
     <div class="paragraph">
-        <h2>Collision and Damage</h2>
-        I also worked on the collision system connecting projectiles, enemies, and player health.
-        One challenge was handling repeated collisions correctly. Projectile damage worked naturally
-        because every shot created a new projectile, while continuous player-enemy collisions required
-        additional logic so health could be reduced correctly across repeated contacts.
+        <h2>Managing Active Projectiles</h2>
+
+        Creating projectiles also meant managing their complete lifecycle within
+        the game loop.
+        <br/><br/>
+
+        Active projectiles needed to be updated as the game ran and removed when
+        they were no longer relevant. This included checking conditions such as
+        projectile lifetime, travel distance, collisions, and hit limits.
+        <br/><br/>
+
+        Working on this system gave me experience thinking about gameplay objects
+        beyond their initial creation. I needed to consider how they were updated,
+        how their state changed over time, and when they should be safely removed
+        from the game.
     </div>
 
-    <!-- ENEMY WAVES / COLLISION -->
+
+    <!-- COLLISION -->
+    <div class="paragraph">
+        <h2>Collision and Damage</h2>
+
+        I also worked on combat collision and damage behavior connecting the
+        player, enemies, and projectiles.
+        <br/><br/>
+
+        One challenge was that projectile collisions and player-enemy collisions
+        behave differently. A projectile is a temporary object that can be removed
+        after completing its interaction, while the player and an enemy may remain
+        in contact across multiple updates.
+        <br/><br/>
+
+        This required additional logic around player damage so continuous collision
+        would not simply reduce health uncontrollably every frame.
+    </div>
+
+
+    <!-- ENEMY WAVE IMAGE -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
@@ -526,45 +1221,170 @@ new ProjectData(
         />
     </div>
 
+
+    <!-- PLAYER DAMAGE -->
+    <div class="paragraph">
+        <h2>Player Damage & Invulnerability</h2>
+
+        I contributed to the player's damage behavior, including logic surrounding
+        temporary invulnerability after taking damage.
+        <br/><br/>
+
+        This helped control repeated enemy collisions by introducing a period where
+        the player could not immediately take another hit. Without that protection,
+        remaining in contact with an enemy could cause health to disappear almost
+        instantly because collision checks occur continuously during the game loop.
+        <br/><br/>
+
+        I also worked on connecting the player's remaining health to the game-over
+        condition, helping complete the basic loop between enemy contact, player
+        damage, survival, and failure.
+    </div>
+
+
+    <!-- WEAPON PROTOTYPE -->
     <div class="paragraph">
         <h2>Weapon Prototype</h2>
-        I prototyped a separate gun class to visually represent the player's weapon.
-        Early versions revealed issues with positioning and orientation, including the gun
-        intersecting the player's sprite or appearing incorrectly when aiming in different directions.
-        Rather than forcing an unfinished feature into the build, I iterated on the concept while
-        the team continued developing the core combat experience.
+
+        I created the original version of a separate gun class intended to visually
+        represent the player's weapon independently from the player sprite.
+        <br/><br/>
+
+        Early versions exposed problems with positioning and orientation. The gun
+        could intersect with the player or appear incorrectly as the player aimed
+        in different directions.
+        <br/><br/>
+
+        This became a collaborative system as development continued. I established
+        the initial class and prototype, while another teammate later expanded the
+        implementation with additional update and drawing behavior used to rotate
+        and position the weapon around the player.
+        <br/><br/>
+
+        This was useful experience in building code that did not remain exclusively
+        mine. The class became a foundation another developer could modify and
+        expand as the game's needs changed.
     </div>
 
+
+    <!-- COLLABORATIVE DEVELOPMENT -->
+    <div class="paragraph">
+        <h2>Collaborative Development</h2>
+
+        Twelve Mage was a team project, and several systems changed ownership or
+        were expanded by different developers throughout production.
+        <br/><br/>
+
+        Some of the classes I initially worked on became foundations that teammates
+        later extended with additional functionality. This required working within
+        shared code rather than treating every system as something owned by a
+        single programmer from beginning to end.
+        <br/><br/>
+
+        That experience helped me become more comfortable with the idea that
+        gameplay code is part of a larger project architecture and needs to remain
+        understandable and usable by other developers.
+    </div>
+
+
+    <!-- GAME STATE -->
     <div class="paragraph">
         <h2>Game-State Foundation</h2>
-        I created an early template for the game's state architecture within the main game class.
-        This provided a foundation that another teammate later expanded into the final state system,
-        which supported the main menu, gameplay, pause, credits, and game-over states.
+
+        I also created an early template for the game's state architecture within
+        the main game class.
+        <br/><br/>
+
+        The goal was to establish a way for the game to distinguish between
+        different modes rather than treating everything as one continuous gameplay
+        state.
+        <br/><br/>
+
+        Another teammate later expanded this foundation into the final state system,
+        which supported states such as the main menu, gameplay, pause, credits,
+        and game over.
     </div>
 
+
+    <!-- FINAL POLISH -->
     <div class="paragraph">
         <h2>Final Polish</h2>
-        During the final sprint, I returned to the project for additional refactoring and polish.
-        I added menu buttons, made smaller gameplay and interface adjustments, and experimented
-        with fullscreen functionality before deciding not to include it in the final build.
+
+        During the final sprint, I returned to different parts of the project for
+        additional refactoring and polish.
+        <br/><br/>
+
+        I contributed menu-button functionality and smaller gameplay and interface
+        adjustments while helping prepare the project for its final build.
+        <br/><br/>
+
+        I also experimented with fullscreen functionality. After testing the
+        implementation, I decided against forcing an unfinished feature into the
+        final build. That process reinforced that removing or postponing a feature
+        can sometimes be a better decision than shipping something that does not
+        meet the quality of the rest of the project.
     </div>
 
+
+    <!-- WORKING WITHOUT A FULL ENGINE -->
+    <div class="paragraph">
+        <h2>Working Directly in MonoGame</h2>
+
+        One of the most valuable parts of Twelve Mage was working with MonoGame
+        instead of a full game engine.
+        <br/><br/>
+
+        In engines such as Unity, Godot, or Unreal, many common systems already
+        have established components, editors, and workflows. MonoGame required us
+        to work much closer to the underlying C# implementation.
+        <br/><br/>
+
+        Systems such as projectile management, collision behavior, state changes,
+        drawing, and object updates had to be connected directly to the game's
+        update and draw loops.
+        <br/><br/>
+
+        That gave me a better understanding of what game engines are doing for
+        developers behind the scenes and made later engine-based development
+        easier for me to reason about.
+    </div>
+
+
+    <!-- REFLECTION -->
     <div class="paragraph">
         <h2>Reflection</h2>
-        Twelve Mage gave me experience building gameplay systems at a lower level than I was used to.
-        Working in MonoGame meant that many systems normally handled by a game engine had to be
-        implemented more directly in C#.
+
+        Twelve Mage gave me experience building gameplay systems at a lower level
+        than I had previously been accustomed to.
         <br/><br/>
-        Building projectiles, collision handling, damage behavior, and game-state foundations
-        helped strengthen my understanding of the systems underneath the tools provided by engines
-        like Unity, Godot, and Unreal Engine. It also reinforced the importance of iteration,
-        debugging, and refactoring as a project grows.
+
+        Creating the projectile system taught me to think about the complete
+        lifecycle of a gameplay object: how it is created, updated, moved,
+        interacts with other objects, tracks its own state, and eventually gets
+        removed.
+        <br/><br/>
+
+        Working on collision and player damage showed me how seemingly simple
+        mechanics can create unexpected problems when they operate continuously
+        inside a game loop. The solution was not simply detecting a collision,
+        but controlling how frequently that collision should affect gameplay.
+        <br/><br/>
+
+        The project also gave me experience creating foundations that other
+        programmers later expanded. Seeing systems change through collaboration
+        reinforced the importance of writing code as part of a team rather than
+        thinking only about my own implementation.
+        <br/><br/>
+
+        Overall, Twelve Mage strengthened my understanding of C#, gameplay
+        architecture, debugging, iteration, and the lower-level systems beneath
+        the tools I would later use in Unity, Godot, and Unreal Engine.
     </div>
     `,
     "#55c878"
 ),
 
-    new ProjectData(
+   new ProjectData(
     "hardline-vr",
     "Hardline VR",
     "img/projects/hardline-vr/hardline-icon.png",
@@ -582,6 +1402,7 @@ new ProjectData(
         and explore what I could build using Godot's XR tools.
     </div>
 
+
     <!-- GAMEPLAY VIDEO -->
     <div class="paragraph center">
         <iframe
@@ -594,8 +1415,27 @@ new ProjectData(
         </iframe>
     </div>
 
+
+    <!-- PLAY THE GAME -->
+    <div class="paragraph">
+        <div class="notice">
+            <strong>Play Hardline VR:</strong>
+            <br/><br/>
+
+            <a
+                href="https://ajsgottheway.itch.io/hardline-vr"
+                target="_blank"
+                rel="noopener noreferrer">
+                Play Hardline VR on itch.io
+            </a>
+        </div>
+    </div>
+
+
+    <!-- PROJECT SNAPSHOT -->
     <div class="paragraph">
         <h2>Project Snapshot</h2>
+
         <ul>
             <li><strong>Role:</strong> VR Developer / Combat Designer</li>
             <li><strong>Engine:</strong> Godot 4.4</li>
@@ -607,6 +1447,8 @@ new ProjectData(
         </ul>
     </div>
 
+
+    <!-- PROJECT GOALS -->
     <div class="paragraph">
         <h2>Project Goals</h2>
 
@@ -623,6 +1465,8 @@ new ProjectData(
         we knew whether the mechanics were fun.
     </div>
 
+
+    <!-- MY ROLE -->
     <div class="paragraph">
         <h2>My Role</h2>
 
@@ -633,12 +1477,21 @@ new ProjectData(
         when physically performed by the player.
         <br/><br/>
 
+        I created the main playable level and layout, implemented combat and
+        environmental interactions, worked on weapon functionality, and developed
+        destructible elements such as enemies, windows, and environmental weapons.
+        I also created the game's background music and assets for the gun and
+        sledgehammer.
+        <br/><br/>
+
         After the course ended, I received my teammate's blessing to continue
         developing Hardline independently. From that point forward, the project
         became an opportunity for me to explore VR development on my own and expand
         the systems beyond what we had completed for the class.
     </div>
 
+
+    <!-- LEARNING XR -->
     <div class="paragraph">
         <h2>Learning Godot XR</h2>
 
@@ -661,6 +1514,7 @@ new ProjectData(
         melee combat, firearms, and destructible objects.
     </div>
 
+
     <!-- GENERAL XR / INTERACTION IMAGE -->
     <div class="paragraph center">
         <img
@@ -670,6 +1524,8 @@ new ProjectData(
         />
     </div>
 
+
+    <!-- COMBAT DESIGN -->
     <div class="paragraph">
         <h2>Designing Combat for VR</h2>
 
@@ -690,11 +1546,13 @@ new ProjectData(
         physically interact with enemies.
     </div>
 
+
+    <!-- MELEE -->
     <div class="paragraph">
         <h2>Melee Combat</h2>
 
-        Melee combat was built around allowing the player to physically use objects
-        as weapons rather than relying on predetermined attack animations.
+        Melee combat was built around allowing the player to physically use weapons
+        and objects rather than relying on predetermined attack animations.
         <br/><br/>
 
         Weapons such as the sledgehammer can be picked up and swung using the VR
@@ -702,11 +1560,18 @@ new ProjectData(
         making positioning and physical interaction an important part of combat.
         <br/><br/>
 
-        I also experimented with environmental weapons so that combat was not
-        restricted to traditional equipment. Objects such as chairs could become
-        temporary weapons, reinforcing the idea that the environment itself could
-        be part of the player's combat toolkit.
+        The melee system uses collision areas on weapons to detect contact with
+        enemies and apply damage. This allowed the player's physical swing to
+        become the attack itself instead of triggering a traditional character
+        animation.
+        <br/><br/>
+
+        I also experimented with environmental weapons so combat was not restricted
+        to traditional equipment. Objects such as chairs could become temporary
+        weapons, reinforcing the idea that the environment itself could be part
+        of the player's combat toolkit.
     </div>
+
 
     <!-- MELEE IMAGES -->
     <div class="paragraph center">
@@ -723,24 +1588,32 @@ new ProjectData(
         />
     </div>
 
+
+    <!-- FIREARMS -->
     <div class="paragraph">
-        <h2>Firearm System</h2>
+        <h2>VR Firearm System</h2>
 
         As I continued Hardline independently after the course, one area I wanted
         to expand was ranged combat.
         <br/><br/>
 
-        I developed a reusable gun class that could provide a common foundation
-        for firearm behavior. Instead of treating every firearm as a completely
-        separate interaction, shared functionality could be handled by the base
-        system and then extended for different weapon behaviors.
+        I developed a firearm system that connects the physical XR interaction
+        with the weapon's gameplay behavior. The gun detects which VR controller
+        is holding it and listens for the controller's trigger input while the
+        weapon is being held.
         <br/><br/>
 
-        Working on the gun system also gave me more experience thinking about
-        reusable gameplay architecture. I was no longer only asking how to make
-        one weapon work; I was thinking about how I could structure the system
-        so additional weapons could be built from the same foundation.
+        Firing creates a projectile from a designated muzzle position. The projectile
+        receives its direction from the weapon, travels forward at a configurable
+        speed, detects collisions, applies damage to enemies, and removes itself
+        after impact or once its lifetime expires.
+        <br/><br/>
+
+        Developing the system helped me move beyond simply making objects grabbable
+        in VR. I was taking the foundational XR interactions I had learned earlier
+        and connecting them to my own combat mechanics.
     </div>
+
 
     <!-- FIREARM IMAGE -->
     <div class="paragraph center">
@@ -751,22 +1624,30 @@ new ProjectData(
         />
     </div>
 
+
+    <!-- ENEMIES -->
     <div class="paragraph">
-        <h2>Destructible Enemies</h2>
+        <h2>Enemy Combat and Destruction</h2>
 
-        I wanted enemy defeats to have stronger physical feedback than simply
-        playing an animation or removing the enemy from the scene.
+        Enemies were designed to give the player targets that worked with both
+        physical melee attacks and ranged weapons.
         <br/><br/>
 
-        When an enemy is defeated in Hardline, its body can break apart into
-        individual pieces. This gives successful attacks an immediate visual
-        response and complements the exaggerated physical nature of the combat.
+        During combat, enemies can move toward the player and receive damage from
+        the player's weapons. I wanted defeating an enemy to provide stronger
+        physical feedback than simply playing an animation or removing the enemy
+        from the scene.
         <br/><br/>
 
-        Some of these pieces can continue to exist as physical objects after the
-        enemy is defeated, helping the results of combat remain visible in the
-        environment.
+        When an enemy is defeated, the active enemy is replaced by a physics-based
+        broken version. The body separates into individual pieces that react to
+        physics and remain temporarily within the environment.
+        <br/><br/>
+
+        This gave successful attacks a more immediate visual and physical response
+        while complementing the exaggerated nature of Hardline's combat.
     </div>
+
 
     <!-- ENEMY DESTRUCTION -->
     <div class="paragraph center">
@@ -777,16 +1658,48 @@ new ProjectData(
         />
     </div>
 
+
+    <!-- ENVIRONMENTAL COMBAT -->
+    <div class="paragraph">
+        <h2>Environmental Weapons</h2>
+
+        One of the ideas I wanted to explore was allowing the environment itself
+        to become part of combat.
+        <br/><br/>
+
+        The chair is an example of this approach. Rather than existing only as
+        decoration, the player can physically grab the chair and swing it at an
+        enemy as a temporary melee weapon.
+        <br/><br/>
+
+        When the chair successfully strikes an enemy, it applies damage and then
+        replaces itself with a broken version made from separate physics-driven
+        pieces.
+        <br/><br/>
+
+        This creates a complete physical interaction:
+        <strong>grab the chair, swing it, hit an enemy, deal damage, and break
+        the weapon.</strong>
+        <br/><br/>
+
+        Giving environmental objects temporary combat value helped support the
+        improvised and aggressive style I wanted Hardline's encounters to encourage.
+    </div>
+
+
+    <!-- ENVIRONMENTAL DESTRUCTION -->
     <div class="paragraph">
         <h2>Environmental Destruction</h2>
 
-        Destruction was not limited to enemies. I also developed breakable
-        environmental elements to make the level react to the player's actions.
+        Destruction was not limited to enemies and weapons. I also developed
+        breakable environmental elements to make the level react to the player's
+        actions.
         <br/><br/>
 
-        Windows can shatter during gameplay, while certain objects such as chairs
-        can be picked up, used during combat, and broken. These interactions help
-        prevent the environment from feeling like a static backdrop.
+        Windows track damage and can be replaced by shattered versions once they
+        break. Combined with breakable objects such as chairs and destructible
+        enemies, these interactions prevent the environment from feeling like
+        a completely static backdrop.
         <br/><br/>
 
         This supported one of the ideas behind Hardline from the beginning:
@@ -794,7 +1707,8 @@ new ProjectData(
         how the objects around them could be used during a fight.
     </div>
 
-    <!-- ENVIRONMENTAL DESTRUCTION -->
+
+    <!-- GLASS IMAGE -->
     <div class="paragraph center">
         <img
             class="pc-screenshot"
@@ -803,6 +1717,8 @@ new ProjectData(
         />
     </div>
 
+
+    <!-- LEVEL DESIGN -->
     <div class="paragraph">
         <h2>Level and Environment Design</h2>
 
@@ -816,10 +1732,16 @@ new ProjectData(
         object placement also helped give players options when entering a fight.
         <br/><br/>
 
+        The layout also needed to support the ability to quickly move between
+        enemies and interact with objects without constantly interrupting the
+        pace of combat.
+        <br/><br/>
+
         The level became the space where the different systems I developed could
         work together: movement, grabbing, melee combat, firearms, enemies,
         destruction, and environmental interaction.
     </div>
+
 
     <!-- LEVEL / ENCOUNTER IMAGES -->
     <div class="paragraph center">
@@ -836,6 +1758,8 @@ new ProjectData(
         />
     </div>
 
+
+    <!-- MOVEMENT -->
     <div class="paragraph">
         <h2>Continuous VR Locomotion</h2>
 
@@ -850,12 +1774,46 @@ new ProjectData(
         constantly interrupting the action.
     </div>
 
+
+    <!-- PLAYER DAMAGE -->
+    <div class="paragraph">
+        <h2>Player Damage and Game State</h2>
+
+        I also implemented player health and damage feedback to complete the basic
+        combat loop.
+        <br/><br/>
+
+        Enemy attacks reduce the player's health, providing a consequence for
+        allowing enemies to get too close during encounters. When the player's
+        health reaches zero, the game transitions into a game-over state.
+        <br/><br/>
+
+        Although simple, this system was important for connecting the individual
+        combat mechanics into a complete encounter loop: the player can attack
+        enemies, enemies can threaten the player, and either side can lose the fight.
+    </div>
+
+
+    <!-- DEATH SCREEN -->
+    <div class="paragraph center">
+        <img
+            class="pc-screenshot"
+            src="img/projects/hardline-vr/hardline-deathscreen.png"
+            alt="Hardline VR death screen"
+        />
+    </div>
+
+
+    <!-- AUDIO / ASSETS -->
     <div class="paragraph">
         <h2>Audio and Presentation</h2>
 
         I also worked on parts of Hardline outside of programming and level
-        development, including creating the background music used in the game
-        and creating assets for weapons such as the gun and sledgehammer.
+        development.
+        <br/><br/>
+
+        I created the background music used in the game and created assets for
+        weapons including the gun and sledgehammer.
         <br/><br/>
 
         Working across these different areas helped me shape the project toward
@@ -863,6 +1821,8 @@ new ProjectData(
         system as an isolated feature.
     </div>
 
+
+    <!-- INDEPENDENT DEVELOPMENT -->
     <div class="paragraph">
         <h2>From Class Project to Independent Development</h2>
 
@@ -879,10 +1839,16 @@ new ProjectData(
         This changed how I approached the project. Without a class deadline or
         assignment determining what needed to be implemented, I could choose
         systems based on what I wanted to learn and what I believed would improve
-        the game. The gun class and continued experimentation with combat were
-        examples of this later independent development.
+        the game.
+        <br/><br/>
+
+        Expanding the firearm system and continuing to experiment with combat,
+        destruction, and interaction became examples of this later independent
+        development.
     </div>
 
+
+    <!-- CHALLENGES -->
     <div class="paragraph">
         <h2>Challenges and Iteration</h2>
 
@@ -905,15 +1871,8 @@ new ProjectData(
         responsive when performed in VR.
     </div>
 
-    <!-- DEATH SCREEN / GAME STATE -->
-    <div class="paragraph center">
-        <img
-            class="pc-screenshot"
-            src="img/projects/hardline-vr/hardline-deathscreen.png"
-            alt="Hardline VR death screen"
-        />
-    </div>
 
+    <!-- REFLECTION -->
     <div class="paragraph">
         <h2>Reflection</h2>
 
@@ -926,30 +1885,33 @@ new ProjectData(
         and grab an object. From there, I learned how to take those individual
         concepts and apply them to problems that did not have a step-by-step
         solution: melee weapons, firearms, destructible enemies, breakable
-        environments, combat encounters, and reusable systems.
+        environments, combat encounters, and reusable gameplay systems.
         <br/><br/>
 
-        Continuing Hardline after the course ended was also important to me
-        personally. I continued because I was interested in VR and wanted to see
-        how much further I could take what I had learned.
+        Continuing Hardline after the course ended was also important to me.
+        I continued because I was interested in VR and wanted to see how much
+        further I could take what I had learned.
         <br/><br/>
 
-        The project helped reinforce the way I like to approach game development:
+        The project reinforced the way I like to approach game development:
         learn the fundamentals, break larger mechanics into smaller problems,
         experiment with solutions, and then bring those systems together into
         something the player can actually experience.
     </div>
 
+
+    <!-- PRODUCTION NOTE -->
     <div class="paragraph">
         <div class="notice">
+            <strong>Production Note:</strong>
             Hardline VR began as a two-person academic project and was later
-            continued independently by me afterwards.
+            continued independently by me after the course ended.
         </div>
     </div>
     `,
     "#55c878",
     true
-), 
+),
 
 // new ProjectData(
 //     "gateway",
