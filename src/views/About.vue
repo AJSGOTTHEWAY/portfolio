@@ -54,8 +54,8 @@
 
 /* Controls the size of your About Me photo */
 .photo img {
-  width: 250px;
-  height: 250px;
+  width: 325px;
+  height: 325px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -68,7 +68,7 @@
   .photo {
     float: left;
     padding: 10px;
-    padding-left: 80px;
+    padding-left: 40px;
   }
 }
 </style>
